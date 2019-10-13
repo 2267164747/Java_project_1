@@ -1,0 +1,35 @@
+#s_siyi {
+	position: relative;
+	width: 100%;
+	height: 900px;
+	top: 15px;
+	float: left;
+}
+.introduce_sy img {
+	position: absolute;
+	left: 0px;
+	top: -18px;
+}
+.introduce_sy span{
+	font-size: 25px;
+	color: #000;
+	position: absolute;
+	left: 35px;
+	top: 0px;
+
+}
+.introduce_sy .s_siyi_sp {
+	font-size: 13px;
+	position: absolute;
+	left: 1231px;
+	top: 8px;
+}
+/*司仪轮播部分*/
+.s_siyi_lb{
+	width: 1220px;
+	height: 594px;
+	margin: 50px;
+}
+.s_siyi_lb ol{position:relative;width: 80px;height: 20px;top:-30px;left:60px;}
+.s_siyi_lb ol li{float:left;width: 10px;height: 10px;margin: 5px;background: #fff;}
+.s_siyi_lb ol li.seleted{background: #1AA4CA;}

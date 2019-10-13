@@ -1,0 +1,11 @@
+[
+ {"img":"GHZ/zs1.jpg"},
+  {"img":"GHZ/zs2.jpg"},
+  {"img":"GHZ/zs3.jpg"},
+  {"img":"GHZ/zs4.jpg"},
+  {"img":"GHZ/zs5.jpg"},
+  {"img":"GHZ/zs6.jpg"},
+  {"img":"GHZ/zs7.jpg"},
+  {"img":"GHZ/zs8.jpg"}
+
+]

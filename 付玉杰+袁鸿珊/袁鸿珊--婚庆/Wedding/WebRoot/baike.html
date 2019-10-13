@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<script src="js/jquery1.42.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body >
+
+<link rel="stylesheet" type="text/css" href="css/baike.css"/>
+<style type="text/css">
+	/* css 重置 */
+	
+	*{margin:0; padding:0; list-style:none; }
+	body{font:normal 12px/22px 宋体;  }
+	img{ border:0;  }
+	a{ text-decoration:none; color:#333;  }
+	a:hover{ color:#FF8400;  }
+	.js{width:90%; margin:10px auto 0 auto; }
+	.js p{ padding:5px 0; font-weight:bold; overflow:hidden;  }
+	.js p span{ float:right; }
+	.js p span a{ color:#f00; text-decoration:underline;   }
+	.js textarea{ height:190px;  width:98%; padding:5px; border:1px solid #ccc; border-top:2px solid #aaa;  border-left:2px solid #aaa;  }
+
+	/* 本例子css */
+	.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+	.navBar{  position:relative; z-index:1; padding-left:400px;   height:60px; line-height:60px; /*background:url(img/line.gif) repeat-x 0 bottom #fff; color:#333; */ background-color: rgba(255,255,255,0.6); }
+	.nav{ position:relative; width:980px; margin:0 auto;  font-family:"Microsoft YaHei",SimSun,SimHei; font-size:14px; }
+	.nav a{ color:#333;  }
+	.nav h3{ font-size:100%; font-weight:normal;   }
+	.nav .m{ float:left;  position:relative; z-index:1; }
+	.nav .s{ float:left; width:3px; text-align:center; color:#D4D4D4; font-size:12px; }
+	.nav h3 a{ display:block; width:124px; text-align:center;   font-weight:bold;  }
+	.nav .sub{ display:none; /*默认隐藏*/  position:absolute; left:-3px; top:60px; z-index:1; width:128px; border:1px solid #E6E4E3; border-top:0; background-color: rgba(255,255,255,0.6); }
+	.nav .sub li{ text-align:center; padding:0 8px; margin-bottom:-1px;   }
+	.nav .sub li a{ display:block;  border-bottom:1px solid #E6E4E3; padding:8px 0; height:28px; line-height:28px; color:#666;   }
+	.nav .sub li a:hover{ color:#FE7700;   }
+	.nav .block{ height:3px; width:130px; background:#FE7700; position:absolute; left:0; top:57px; overflow:hidden;  }
+	.box{
+		width: 800px;
+		height: 500px;
+		background-color: rgba(255,255,255,0.2);
+		border: 1px solid #FFFFFF ;
+		margin: 10px auto; 
+	}
+	.imgtop{
+		position: absolute;
+		left:70px;
+		top:-15px
+	}
+	.bottom{
+		width: 100%;
+		height: 400px;
+		background-color: rgba(255,255,255,0.7);
+		position: absolute;
+		top: 2500px;
+	}
+	.bottom .footer .w .footer-title{
+		width: 1000px;
+		height: 70px;
+		border-bottom: 1px #DDDDDD solid;
+		line-height: 70px;
+		margin: 5px auto;
+		
+	}
+	.bottom .footer .w {font-size:14px;font-family:"Microsoft YaHei"}
+	.bottom .footer .w .fr{position: absolute; left:900px; top: 5px;font-size: 20px;color: lightpink;}
+	.bottom .footer .w .web-nav{width: 70px;height: 200px;position: absolute; left: 130px;line-height: 30px;}
+	.bottom .footer .w .contact{width: 300px;height: 200px;position: absolute; left: 350px;line-height: 30px;}
+	.bottom .footer .w .about-amazing{width: 300px;height: 200px;position: absolute; left: 900px;line-height: 30px;}
+
+</style>
+	<div class="navBar">
+
+				<div class="imgtop">
+					<a href="#"><img src="img/1.png" width="55%" /></a>
+				</div>
+				<ul class="nav clearfix" style="width: 800px;">
+					<li class="m">
+						<h3><a target="_self" href="首页.html">网站首页</a></h3>
+					</li>
+					<li class="s">|</li>
+					<li class="m">
+						<h3><a target="_self" href="案例.html">婚礼案例</a></h3>
+					</li>
+					<li class="s">|</li>
+					<li class="m ">
+						<!-- 当前频道添加on -->
+						<h3><a target="_self" href="婚礼风格.html">婚礼风格</a></h3>
+					</li>
+					<li class="s">|</li>
+					<li class="m">
+						<h3><a target="_self" href="司仪主页.html">团队司仪</a></h3>
+					</li>
+					<li class="s">|</li>
+					<li class="m">
+						<h3><a target="_self" href="#">量身定制</a></h3>
+						<ul class="sub">
+							<li>
+								<a href="婚礼场地.html">婚礼场地</a>
+							</li>
+							<li>
+								<a href="yqhunsha.html">婚纱礼服</a>
+							</li>
+						</ul>
+					</li>
+					<li class="s">|</li>
+					<li class="m">
+						<h3><a target="_self" href="guangyuwomen.html">关于我们</a></h3>
+						<ul class="sub">
+							<li>
+								<a href="留言板.html">留言板</a>
+							</li>
+						</ul>
+					</li>
+					<li class="s">|</li>
+					<li class="block"></li>
+					<!-- 滑动块 -->
+				</ul>
+			</div>
+	<div class="content" style="height:120px">
+		
+	<!-- 内容 -->
+	<div id="box_zhang_num1">
+		<a href="#"><b>首页</b></a>
+		&gt;
+		<a href="#"><b>婚礼百科</b></a>
+	</div>
+	<div id="box">
+		
+	
+		<div id="box_zhang_top">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#"><div id="a_box0">
+				结婚准备
+			</div></a>
+			<a href="#"><div id="a_box1">
+				拍婚纱照
+			</div></a>
+			<a href="#"><div id="a_box2">
+				婚礼筹备
+			</div></a>
+			<a href="#"><div id="a_box3">
+				结婚现场
+			</div></a>
+			<a href="#"><div id="a_box4">
+				新娘新郎
+			</div></a>
+			<a href="#"><div id="a_box5">
+				结婚用品
+			</div></a>
+			<a href="#"><div id="a_box6">
+				结婚请柬范文
+			</div></a>
+				<div id="box_zhang_top1">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚流程</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">求婚</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚登记</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚吉日</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚年龄</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚嫁</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚房</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">见家长</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">彩礼</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚检</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚习俗</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚祝福语</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</div>
+				<div id="box_zhang_top2">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚纱照风格</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">拍婚纱照注意事项</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">拍婚纱照哪家好</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">怕婚纱照要多少钱</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">旅拍婚纱照</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">景点</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</div>
+				<div id="box_zhang_top3">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚礼案例</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚宴</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚车</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">司仪</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">跟妆</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">跟拍</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚礼主题</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">伴郎</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">伴娘</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">请柬怎么写</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</div>
+				<div id="box_zhang_top4">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚礼布置</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚礼歌曲</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚礼致辞</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚礼誓词</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚礼游戏</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚礼音乐</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</div>
+				<div id="box_zhang_top5">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">新娘妆</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">新娘发型</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">新娘美甲</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">新娘头饰</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">新娘手捧花</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</div>
+				<div id="box_zhang_top6">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚戒指</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚纱礼服</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">床上用品</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚礼喜帖</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚礼蛋糕</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">喜糖</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">红包</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">婚宴用品</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">席位卡</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚礼物</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚回礼</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚对联</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">胸贴</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</div>
+				<div id="box_zhang_top7">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚请柬怎么写</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">结婚邀请短信</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</div>
+		</div>
+	
+		<div id="box_zhang_1">
+							<ul>
+								<li>
+									<div id="box_zhang_2">
+										
+									</div>
+								</li>
+							</ul>
+		</div>
+		
+	</div>
+	<div id="box1">
+		<ul>
+			<li>
+				<div class="box_zhang_num1_a">
+					<a href="#" ><div class="box_zhang_num1_a1">
+						
+							2017年银行贷款利率是多少？
+						
+					</div></a>	
+					<a href="#"><div class="box_zhang_num1_a2">
+						
+							银行贷款利率是多少？现在每个人都应该注意了，因为很多时候都会牵扯到银行贷款的事情，毕竟有时候个人经济能力有限，而民间借贷利息又很高，而且时间也不长。所以在一些购房或者做生意的时候如果缺钱就要进行银行贷款。
+						
+					</div>	</a>
+					<div class="box_zhang_num1_a3">
+						<span>
+							2017-09-06 13:59:32
+						</span>
+					</div>
+					<div class="box_zhang_num1_a4">
+						<a href="#"><img src="img/img_zhang_jinxuan/4 (1).jpg"/></a>
+					</div>
+					<div class="box_zhang_num1_a5">
+						
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="box_zhang_num1_a">
+					<a href="#" ><div class="box_zhang_num1_a1">
+						
+							收到结婚请柬怎么回结婚祝福？
+						
+					</div></a>	
+					<a href="#"><div class="box_zhang_num1_a2">
+						
+							朋友发来结婚请柬邀请你参加婚礼，你要做的第一件事该是给朋友送上最真挚的结婚祝福了吧？很多人的结婚祝福大概就是“恭喜恭喜！”，有什么办法呢，读过的书都还给老师了；下面和婚礼纪小编一起看看这些美好的结婚祝福短语吧。
+						
+					</div>	</a>
+					<div class="box_zhang_num1_a3">
+						<span>
+							2017-09-06 13:59:32
+						</span>
+					</div>
+					<div class="box_zhang_num1_a4">
+						<a href="#"><img src="img/img_zhang_jinxuan/4 (2).jpg"/></a>
+					</div>
+					<div class="box_zhang_num1_a5">
+						
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="box_zhang_num1_a">
+					<a href="#" ><div class="box_zhang_num1_a1">
+						
+							结婚要花多少钱？2017年中国人婚礼花费大数据新鲜出炉
+						
+					</div></a>	
+					<a href="#"><div class="box_zhang_num1_a2">
+						
+							结婚要花多少钱？结婚是有钱任性、高调炫富的方式？还是一个与亲友分享喜悦的简单仪式？
+						
+					</div>	</a>
+					<div class="box_zhang_num1_a3">
+						<span>
+							2017-09-06 13:59:32
+						</span>
+					</div>
+					<div class="box_zhang_num1_a4">
+						<a href="#"><img src="img/img_zhang_jinxuan/4 (3).jpg"/></a>
+					</div>
+					<div class="box_zhang_num1_a5">
+						
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="box_zhang_num1_a">
+					<a href="#" ><div class="box_zhang_num1_a1">
+						
+							结婚接新娘注意事项有哪些？
+						
+					</div></a>	
+					<a href="#"><div class="box_zhang_num1_a2">
+						
+							很多新人都会回到自己的老家结婚，但是他们对于当地婚礼习俗不是特别的了解，故而很多时候不经意间就会做出一些“于礼不合”的举止，为了避免婚礼当天闹乌龙，我们今天一起来看看结婚接新娘注意事项有哪些吧。
+						
+					</div>	</a>
+					<div class="box_zhang_num1_a3">
+						<span>
+							2017-09-06 13:59:32
+						</span>
+					</div>
+					<div class="box_zhang_num1_a4">
+						<a href="#"><img src="img/img_zhang_jinxuan/4 (4).jpg"/></a>
+					</div>
+					<div class="box_zhang_num1_a5">
+						
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="box_zhang_num1_a">
+					<a href="#" ><div class="box_zhang_num1_a1">
+						
+							结婚女方需要准备哪些嫁妆
+						
+					</div></a>	
+					<a href="#"><div class="box_zhang_num1_a2">
+						
+							在结婚时，新人们肯定要考虑嫁妆。在我国的传统习俗中，嫁妆是很重要的，它蕴含着长辈们对新人的祝福和期望。但是每个地方的习俗不同，嫁妆也是不同的。不过在大体上也都是差不多的。传统的嫁妆比较简单，现在的嫁妆就很多了，那么嫁妆清单的填写就比较重要了。下面来看一看结婚女方需要准备哪些嫁妆。
+						
+					</div>	</a>
+					<div class="box_zhang_num1_a3">
+						<span>
+							2017-09-06 13:59:32
+						</span>
+					</div>
+					<div class="box_zhang_num1_a4">
+						<a href="#"><img src="img/img_zhang_jinxuan/4 (5).jpg"/></a>
+					</div>
+					<div class="box_zhang_num1_a5">
+						
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="box_zhang_num1_a">
+					<a href="#" ><div class="box_zhang_num1_a1">
+						
+							婚礼流程安排注意事项
+						
+					</div></a>	
+					<a href="#"><div class="box_zhang_num1_a2">
+						
+							在婚礼过程中婚礼流程安排还是比较重要的，提前能够做好相应的准备工作，作为新人在婚礼来到的时候也就不会过于的慌张，能够让婚礼变得更加的精彩、顺利，提前了解一些细节也能够让你在婚礼上表现的更加从容，整个结婚的过程也不会手忙脚乱。
+						
+					</div>	</a>
+					<div class="box_zhang_num1_a3">
+						<span>
+							2017-09-06 13:59:32
+						</span>
+					</div>
+					<div class="box_zhang_num1_a4">
+						<a href="#"><img src="img/img_zhang_jinxuan/4 (6).jpg"/></a>
+					</div>
+					<div class="box_zhang_num1_a5">
+						
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="box_zhang_num1_a">
+					<a href="#" ><div class="box_zhang_num1_a1">
+						
+							婚检都检查什么？婚前有没有必要婚检？
+						
+					</div></a>	
+					<a href="#"><div class="box_zhang_num1_a2">
+						
+							A女和老公是相亲认识的，认识了4个月就领证了，婚检他说没必要，她想想介绍人也说是知根知底，应该没问题，就放弃了婚检。哪知道后来孩子生下来就有梅毒！原来她老公有梅毒，就是怕查出来故意说不婚检的。
+						
+					</div>	</a>
+					<div class="box_zhang_num1_a3">
+						<span>
+							2017-09-06 13:59:32
+						</span>
+					</div>
+					<div class="box_zhang_num1_a4">
+						<a href="#"><img src="img/img_zhang_jinxuan/4 (7).jpg"/></a>
+					</div>
+					<div class="box_zhang_num1_a5">
+						
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="box_zhang_num1_a">
+					<a href="#" ><div class="box_zhang_num1_a1">
+						
+							新婚后你们会幸福多久，就看这5件事
+						
+					</div></a>	
+					<a href="#"><div class="box_zhang_num1_a2">
+						
+							​初为人妇，这不仅是角色的一次转换，更代表着你将跨越人生新的阶段。你不再是那个一人吃饱全家不饿的单身姑娘，也不再是那个随时随地可以去任何地方的潇洒小姐。
+						
+					</div>	</a>
+					<div class="box_zhang_num1_a3">
+						<span>
+							2017-09-06 13:59:32
+						</span>
+					</div>
+					<div class="box_zhang_num1_a4">
+						<a href="#"><img src="img/img_zhang_jinxuan/4 (8).jpg"/></a>
+					</div>
+					<div class="box_zhang_num1_a5">
+						
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="box_zhang_num1_a">
+					<a href="#" ><div class="box_zhang_num1_a1">
+						
+							2017年结婚吉日有哪些？2017年结婚黄道吉日一览
+						
+					</div></a>	
+					<a href="#"><div class="box_zhang_num1_a2">
+						
+							结婚是人一生中非常重大的日子，也是非常神圣的日子，在我国的传统中，结婚的日子并不是随随便便定的，通常都会找一个懂得老黄历的人选一个黄道吉日作为结婚吉日，在这一天举行婚礼，以期今后的婚姻生活美满和睦，那么今年2017年有哪些好日子可以做结婚吉日呢？
+						
+					</div>	</a>
+					<div class="box_zhang_num1_a3">
+						<span>
+							2017-09-06 13:59:32
+						</span>
+					</div>
+					<div class="box_zhang_num1_a4">
+						<a href="#"><img src="img/img_zhang_jinxuan/4 (9).jpg"/></a>
+					</div>
+					<div class="box_zhang_num1_a5">
+						
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="box_zhang_num1_a">
+					<a href="#" ><div class="box_zhang_num1_a1">
+						
+							2017年婚假工资规定-最新劳动法婚假工资怎么算
+						
+					</div></a>	
+					<a href="#"><div class="box_zhang_num1_a2">
+						
+							2017年婚假工资规定-最新劳动法婚假工资怎么算</a></h5><p><a href="/bai_ke/detail_4791" target="_blank">2017最新的劳动法规定婚假期间为带薪休假，再婚人员同样享受婚假待遇，婚假期间工资一般为正常出勤月工资的70%。
+						
+					</div>	</a>
+					<div class="box_zhang_num1_a3">
+						<span>
+							2017-09-06 13:59:32
+						</span>
+					</div>
+					<div class="box_zhang_num1_a4">
+						<a href="#"><img src="img/img_zhang_jinxuan/4 (1).jpg"/></a>
+					</div>
+					<div class="box_zhang_num1_a5">
+						
+					</div>
+				</div>
+			</li>
+			
+		</ul>
+	</div>
+	<div class="box_zhang_tuijian">
+		<div class="box_zhang_tuijian1">
+			<span>
+				<b><b><b><b><font color="red">|</font></b></b></b></b>&nbsp;推荐套餐
+			</span>
+		</div>
+		<div class="box_zhang_tuijian2">
+			<a href="#"><img src="img/img_zhang_jinxuan/5 (1).jpg"/></a>
+			<div style="font-size: 15px;font-family: '微软雅黑';margin-left: 10px;">
+				<a href="#">荣耀尊享</a>
+			</div>
+			<div style="font-size: 13px;font-family: '微软雅黑';margin-left: 10px;color: red;">
+				<span>
+				￥6000000.00&nbsp;<font color="#88A2AF"><del>￥999999999</del></font>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#A9A9A9" size="5">&hearts;</font>&nbsp;11
+				</span>	
+			</div>
+		</div>
+		<div class="box_zhang_tuijian2">
+			<a href="#"><img src="img/img_zhang_jinxuan/5 (2).jpg"/></a>
+			<div style="font-size: 15px;font-family: '微软雅黑';margin-left: 10px;">
+				<a href="#">【热销套餐】4晚酒店／五套服装／8888大礼包</a>
+			</div>
+			<div style="font-size: 13px;font-family: '微软雅黑';margin-left: 10px;color: red;">
+				<span>
+				￥16000000.00&nbsp;<font color="#88A2AF"><del>￥999999999</del></font>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#A9A9A9" size="5">&hearts;</font>&nbsp;31
+				</span>	
+			</div>
+		</div>
+			<div class="box_zhang_tuijian2">
+			<a href="#"><img src="img/img_zhang_jinxuan/5 (3).jpg"/></a>
+			<div style="font-size: 15px;font-family: '微软雅黑';margin-left: 10px;">
+				<a href="#">【佰莉婚纱】接机+住宿+赠送婚纱+微电影+包邮</a>
+			</div>
+			<div style="font-size: 13px;font-family: '微软雅黑';margin-left: 10px;color: red;">
+				<span>
+				￥88888888.00&nbsp;<font color="#88A2AF"><del>￥999999999</del></font>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#A9A9A9" size="5">&hearts;</font>&nbsp;88
+				</span>	
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="bottom" style="top: 2400px;">
+					<div class="footer" id="footer">
+						<div class="w clx">
+							<div class="footer-title clx">
+								<ul class="fl">
+									<li>
+										<a href="首页.html">网站首页</a>
+									</li>
+								</ul>
+								<p class="fr">全国热线：153-3343-6031</p>
+							</div>
+							<div class="web-nav footer-cell">
+								<h3>网址导航</h3>
+								<a href="首页.html" class='' title="网站首页">网站首页</a>
+								<a href="案例.html" class='' title="婚礼案例">婚礼案例</a>
+								<a href="婚礼场地.html" class='' title="量身定制">量身定制</a>
+								<a href="司仪主页.html" class='' title="团队介绍">团队司仪</a>
+								<a href="婚礼风格.html" class='' title="婚礼课堂">婚礼风格</a>
+								<a href="guangyuwomen.html" class='' title="关于我们">关于我们</a>
+
+							</div>
+							<div class="contact footer-cell">
+								<h3>联系方式</h3>
+								<p class=''>客服微信：888-888</p>
+								<p class=''>商务合作：666666.qq</p>
+								<p class=''>服务时间：周一至周日 10:00-19:00</p>
+								<p class=''>地址：北京交通职业技术学院中软大楼108室</p>
+							</div>
+							<div class="about-amazing footer-cell">
+								<h3>关注我们</h3>
+								<div class="amazing-way clx">
+									<a href="javascript:;" class="fl">
+										<img src="img/weibu_gywm/liantu.png" width="100px" height="100px"/>
+									</a>
+									<img src="img/weibu_gywm/liantu (1).png" width="100px" height="100px"/>
+									</a>
+								</div>
+							</div>
+						</div>
+	<script src="js/baike.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+
+	(function(){
+			var ind = 0; //初始位置
+			var nav= jQuery(".nav");
+			var init = jQuery(".nav .m").eq(ind);
+			var block = jQuery(".nav .block"); //滑块
+			block.css({"left":init.position().left-3}); //初始化滑块位置
+			nav.hover(function(){},function(){ block.animate({"left":init.position().left-3},100); }); //移出导航滑块返回
+
+			jQuery(".nav").slide({ 
+					type:"menu", //效果类型
+					titCell:".m", // 鼠标触发对象
+					targetCell:".sub", // 效果对象，必须被titCell包含
+					delayTime:300, // 效果时间
+					triggerTime:0, //鼠标延迟触发时间
+					returnDefault:true,//on返回初始位置
+					defaultIndex:ind,//初始位置
+					startFun:function(i,c,s,tit){ //控制当前滑块位置
+						block.animate({"left":tit.eq(i).position().left-3},100);
+					}
+				});
+	})()
+	
+	
+	</script> 
+</body>
+</html>
+

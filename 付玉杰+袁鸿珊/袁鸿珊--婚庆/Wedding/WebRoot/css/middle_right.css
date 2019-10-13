@@ -1,0 +1,65 @@
+ /*侧边栏样式*/
+ #middle_right{
+ 	position: absolute;
+ 	right: 0px;
+ 	bottom: 2403px;/*侧边栏上下浮动*/
+ 	width: 210px;
+ 	height: 373px;
+ 	border: #E7E7E7 1px solid;
+ 	float: right;
+ 	margin-right: 70px;
+ }
+ .biaoti{
+ 	width: 210px;
+ 	height: 45px;
+ 	background-color: #FF5165;
+ 	text-align: center;
+ }
+ .biaoti span{
+ 	font-size: 20px;
+ 	color: #FFFFFF;
+ 	line-height: 45px;
+ }
+ .neirou .biaoti_xiao a p{
+ 	/*text-align: center;*/
+ 	margin-left: 22px;
+ 	margin-top: 20px;
+ }
+ .biaoti_xiao .xiao_left img {
+ 	margin-left: 20px;
+ 	margin-top: 10px;
+ }
+ .biaoti_xiao .xiao_left{
+ 	float: left;
+ 	display: none;
+ }
+ .xiao_right{
+ 	display: none;
+ }
+ .biaoti_xiao .xiao_right p{
+ 	font-size: 5px;
+ 	color: #999;
+ 	margin-left: 90px;
+ 	margin-top: 7px;
+ }
+ 
+ .neirou .biaoti_xiao1 a p{
+ 	/*text-align: center;*/
+ 	margin-left: 22px;
+ 	margin-top: 20px;
+ }
+ .biaoti_xiao1 .xiao_left1 img {
+ 	margin-left: 20px;
+ 	margin-top: 10px;
+ }
+ .biaoti_xiao1 .xiao_left1{
+ 	float: left;
+ 	/*display: none;*/
+ }
+ .biaoti_xiao1 .xiao_right1 p{
+ 	font-size: 5px;
+ 	color: #999;
+ 	margin-left: 90px;
+ 	margin-top: 7px;
+ 	/*display: none;*/
+ } 

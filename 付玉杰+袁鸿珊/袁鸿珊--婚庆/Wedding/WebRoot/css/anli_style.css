@@ -1,0 +1,122 @@
+/*****全局变量*****/
+body{
+	font: normal 12px/22px 宋体;
+	background-image:#;
+	background-repeat:no-repeat;  
+	background-position:0% 0%;  
+	background-size: cover; /*让背景图片足够大，不考虑看不到的部分*//*contain 让图片最大，考虑全部显示*/ 
+	background-attachment: fixed;	
+}
+img {
+				border: 0;
+			}
+*{
+	margin: 0px;
+	padding: 0;
+}
+#box ,.head_ads{
+	width: 1800px;
+}
+#box{
+	margin: 0 auto;
+	
+}
+/*****全局变量结束*****/
+
+/*******头部*****/
+
+
+
+
+
+/********结尾**********/
+.foot{
+	height: 200px;
+	/*background-image: url(../img/g.jpg);*/
+	/*opacity: 0.4;*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: #473d3b;
+	
+}
+#foot_left{
+	margin-left: 200px;
+	float: left;
+}
+#foot_left_name{
+	color: white;
+	font-size: 27px;
+	margin-left: 150px;
+	display: block;
+	padding-top: 30px;
+}
+.foot ul li{
+	list-style: none;
+	font-size:15px;
+	color: white
+}
+.foot_left_nav1,.foot_left_nav2,.foot_left_nav3{
+	display: block;
+	float: left;
+	margin-top: 30px;
+    margin-left: 40px;
+   text-align: right;
+}
+hr{
+	width: 80px;
+}
+#foot_mid{
+	float:left;
+}
+#foot_mid_name{
+	color: white;
+	font-size: 27px;
+	margin-left: 120px;
+	display: block;
+	padding-top: 30px;
+}
+#list1{
+	background-image: url(../img/phone.jpg);
+	width: 325px;
+	height: 98px;
+	margin-left: 115px;
+	margin-top: 20px;
+}
+#foot_right{
+	float:left;
+}
+#foot_right_name{
+	color: white;
+	font-size: 27px;
+	margin-left: 120px;
+	display: block;
+	padding-top: 30px;
+}
+#list_photo1 ,#list_photo2{
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+}
+#list_photo1 img,#list_photo2 img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	
+}
+#list_photo1,#list_photo2{
+	display: block;
+	float: left;
+	margin-left: 120px;
+	padding-top: 30px;
+}
+#contact{
+	width: 80px;
+	height: 80px;
+	border: 1px solid red;
+	margin-left: 55px;
+	margin-top: -40px;
+}
+#contact #photo{
+	
+}
+/*******结尾结束*******/

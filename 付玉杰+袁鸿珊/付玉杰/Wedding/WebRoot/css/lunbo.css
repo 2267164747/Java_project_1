@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#banner{
+	position: relative;
+	width: 100%;
+	height: 370px;
+	top: -120px;
+	/*background: #963;*/
+	margin: 50px auto;
+}
+
+.img{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+.img img{
+	background-size: 100% 100%;
+	display: none;
+}
+.item{
+	position: absolute;
+	left: 480px;
+	top: 480px;
+	width: 400px;
+	height: 140px;
+	/*background: red;*/
+}
+/*.text{
+	width: 400px;
+	height: 120px;
+	background: yellow;
+}*/
+.btn{
+	width: 400px;
+	height: 20px;
+}
+.btn ul li{
+	list-style: none;
+	width: 65px;
+	height: 20px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	float: left;
+	margin-right: 1px;
+	cursor: pointer;/*鼠标形状*/
+}
+.btn ul li.curr{
+	width: 136px;
+	background: goldenrod;
+}

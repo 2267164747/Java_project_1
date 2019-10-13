@@ -1,0 +1,202 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	html{
+		width: 100%;
+	}		
+	body{
+		width: 100%;
+	}
+			#box{
+				width:1200px;
+				height:600px;
+				margin: 0 auto;
+				opacity: 0.9;
+				border-bottom:1px solid ;
+			}
+			#ly1{
+				width: 120px;
+				height: 120px;
+				background: url(../img/bizhi.png) no-repeat;
+				background-size: 100% 100%;
+
+				float: left;
+				margin-top: 30px;
+			}
+			.liuyan1{
+				transform: rotate(7deg);
+				transition: all 0.4s ease-in-out; 
+			}
+			.liuyan1:hover{
+				transform: scale(1.2);
+			}
+			.liuyan2{
+				transform: rotate(-8deg);
+				transition: all 0.4s ease-in-out; 
+			}
+			.liuyan2:hover{
+				transform: scale(1.2);
+			}
+			 .img{
+			 	position: absolute;
+				width: 25px;
+				height: 25px;
+				border: 1px solid white;
+				border-radius: 10px;
+				background-size: 100% 100%;
+				left: 20px;
+				top: 45px;
+			}
+			.textarea{
+				position: absolute;
+				width: 87px;
+				height: 27px;
+				border: 1px solid;
+				border-radius: 5px;
+				font: 500 10px 微软雅黑;
+				left: 18px;
+				top: 73px;
+			}
+			#texta{
+				position: absolute;
+				top: 200px;
+			}
+			#tan {
+				width: 300px;
+				height: 150px;
+				border: 1px solid hotpink;
+				border-radius: 10px;
+				background: url(../img/meigui.png) no-repeat;
+				background-size: cover;
+				background-color: white;
+				position: absolute;
+				left: 160px;
+				top: 787px;
+				z-index: 33;
+				opacity: 0.9;	
+				display: none;
+			}
+			#te {
+				width: 150px;
+				height: 90px;
+				position: absolute;
+				left: 47px;
+				top: 13px;
+			}	
+			#t {
+				width: 150px;
+				height: 90px;
+				border: 1px solid #999999;
+				border-radius: 10px;
+			}
+			
+			#pinglun {
+				width: 60px;
+				height: 30px;
+				position: absolute;
+				top: 108px;
+				left: 178px;
+			}
+			
+			#btn {
+				width: 60px;
+				height: 30px;
+				border: 1px solid;
+				border-radius: 10px;
+			}
+			
+			#reset {
+				width: 60px;
+				height: 30px;
+				position: absolute;
+				top: 110px;
+				left: 28px;
+			}
+			
+			#btn1 {
+				width: 60px;
+				height: 30px;
+				border: 1px solid;
+				border-radius: 10px;
+			}
+			
+			#yue {
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				left: -89px;
+				top: -102px;
+			}
+			
+			#yue img {
+				width: 200px;
+				height: 200px;
+				background-size: cover;
+			}
+			#renou{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				right: 0;
+				top: 100px;
+			}
+			#renou img{
+				width: 100px;
+				height: 100px;
+				background-size: 100% 100%;
+			}
+			#xjt-left{
+				float:right;
+				width: 800px;
+				height: 600px;
+				margin-right: 0px;
+			}
+			#xjt-right{
+				float: left;
+				width: 300px;
+				height: 300px;
+				background-color: #AAAAAA;
+				margin-top: 20px;
+				margin-right: 20px;
+			}
+			#pingping{
+				width: 100%;
+				height: 546px;
+				margin-top: 10px;
+			}
+			#pingping1{
+				width:1200px;
+				height: 546px;
+				margin: 0 auto;
+			}
+			#pingping-left{
+				width: 900px;
+				height: 546px;
+			}
+			#pingping-left ul{
+				width: 800px;
+				height: 546px;
+			}
+			#pingping-left ul li{
+				list-style: none;
+				width: 800px;
+				height: 90px;
+				border-bottom: 1px dashed #AAAAAA;
+				font:500 20px 微软雅黑;
+			}
+			/*#pingping-right{
+				width:200px;
+				height: 300px;
+				right: 0;
+				top: 1000px;
+			}
+			#pingping-right ul{
+				width: 200px;
+				height: 150px;
+			}
+			#pingping-right ul li{
+				width: 200px;
+				height: 30px;
+				border: 1px dashed #CCCCCC;
+			}

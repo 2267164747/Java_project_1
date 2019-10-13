@@ -1,0 +1,1 @@
+2017-09-29 11:28:03 com.etc.wedding.dao.BaseDao.getConn(BaseDao.java:37) BaseDao.java DEBUG Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial

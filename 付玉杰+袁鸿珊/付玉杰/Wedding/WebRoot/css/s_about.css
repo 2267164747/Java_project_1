@@ -1,0 +1,155 @@
+/*小编精选*/
+#about{
+	position: relative;
+	width: 420px;
+	height: 600px;
+	top: -220px;
+	float: left;
+}
+.introduce_ab img {
+	position: absolute;
+	left: 0px;
+	top: -18px;
+}
+.introduce_ab span{
+	font-size: 25px;
+	color: #000;
+	position: absolute;
+	left: 35px;
+	top: 0px;
+
+}
+.introduce_ab .about_sp {
+	font-size: 13px;
+	position: absolute;
+	left: 380px;
+	top: 13px;
+}
+.ab_xian{
+	margin-top: 30px;
+	margin-left: 10px;
+	color: #ccc;
+}
+.ab_neirou{
+	width: 430px;
+	height: 150px;
+	border-right: 1px dashed #999;
+	float: left;
+	margin-left: -20px;
+	
+}
+.ab_neirou ul{
+	margin-left: 40px;
+	margin-top: 15px;
+}
+.ab_neirou ul li {
+	margin: 15px;
+	font-size: 15px;
+	color: #999;
+}
+
+
+/*婚礼百科*/
+#about1{
+	position: relative;
+	top: -220px;
+	left: 20px;
+	width: 430px;
+	height: 600px;
+	float: left;
+}
+.introduce_ab1 img {
+	position: absolute;
+	left: 0px;
+	top: -18px;
+	margin-left: -20px;/*婚礼百科红条位置*/
+}
+.introduce_ab1 span{
+	font-size: 25px;
+	color: #000;
+	position: absolute;
+	left: 35px;
+	top: 0px;
+
+}
+.introduce_ab1 .about_sp1 {
+	font-size: 13px;
+	position: absolute;
+	left: 380px;
+	top: 13px;
+}
+.ab_xian1{
+	margin-top: 30px;
+	margin-left: 10px;
+	color: #ccc;
+}
+.ab_neirou1{
+	width: 430px;
+	height: 150px;
+	border-right: 1px dashed #999;
+	float: left;
+	margin-left: -20px;
+	
+}
+.ab_neirou1 ul{
+	margin-left: 40px;
+	margin-top: 15px;
+}
+.ab_neirou1 ul li {
+	margin: 15px;
+	font-size: 15px;
+	color: #999;
+}
+
+
+/*精选评论*/
+#about2{
+	position: relative;
+	top: -220px;
+	left: 25px;
+	width: 430px;
+	height: 600px;
+
+	float: left;
+}
+.introduce_ab2 img {
+	position: absolute;
+	left: 0px;
+	top: -18px;
+	margin-left: -20px;/*婚礼百科红条位置*/
+}
+.introduce_ab2 span{
+	font-size: 25px;
+	color: #000;
+	position: absolute;
+	left: 35px;
+	top: 0px;
+
+}
+.introduce_ab2 .about_sp2 {
+	font-size: 13px;
+	position: absolute;
+	left: 380px;
+	top: 13px;
+}
+.ab_xian2{
+	margin-top: 30px;
+	margin-left: 10px;
+	color: #ccc;
+}
+.ab_neirou2{
+	width: 430px;
+	height: 150px;
+	border-right: 1px dashed #999;
+	float: left;
+	margin-left: -20px;
+}
+.ab_neirou2 ul{
+	margin-left: 40px;
+	margin-top: 15px;
+}
+.ab_neirou2 ul li {
+	margin: 15px;
+	font-size: 15px;
+	color: #999;
+}

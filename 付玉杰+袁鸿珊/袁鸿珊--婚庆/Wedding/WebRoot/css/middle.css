@@ -1,0 +1,151 @@
+/*中间部分*/
+#middle{
+	position: relative;
+	width: 85%;
+	height: 30px;
+	float: left;
+	/*border: red 1px solid;*/
+}
+.introduce span{
+	font-size: 25px;
+	position: absolute;
+	left: 35px;
+	top: 20px;
+}
+.introduce .middle_sp{
+	font-size: 13px;
+	position: absolute;
+	left: 1000px;
+	top: 32px;
+}
+ .middle_ul1{
+	float: left;
+}
+.middle_ul2{
+	float: left;
+}
+.middle_ul1 li{
+	position: relative;
+	float: left;
+}
+.middle_ul1 li img{
+	margin-bottom: 40px;
+}
+.middle_ul1 li p{
+	position: absolute;
+	left: 10px;
+	bottom: 20px;
+}
+.middle_ul2 li{
+	position: relative;
+	float: left;
+}
+.middle_ul2 li img{
+	margin-bottom: 40px;
+}
+
+.middle_photo{
+	margin: 0px 30px 0px 30px;
+}
+.middle_photo ul li{
+	border: #E7E7E7 1px solid;
+	/*margin: 10px;*/
+}
+.middle_ul1 .shouye_middle{
+	width: 230px;
+	height: 130px;
+	margin-left: 20px;
+}
+.shouye_middle_wz{
+	width: 230px;
+	height: 130px;
+	float: left;
+}
+.middle_ul1 .xiabiank1 {/*下边框位置*/
+	width: 230px;
+	height: 180px;
+	border: #E7E7E7 1px solid;
+	float: left;
+	position: absolute;
+	margin-left: 20px;
+	
+}
+.middle_ul1 .xiabiank2 {/*下边框位置*/
+	width: 230px;
+	height: 180px;
+	border: #E7E7E7 1px solid;
+	float: left;
+	position: absolute;
+	left: 272px;
+	margin-left: 30px;
+	
+}
+.middle_ul1 .xiabiank3 {/*下边框位置*/
+	width: 230px;
+	height: 180px;
+	border: #E7E7E7 1px solid;
+	float: left;
+	position: absolute;
+	left: 514px;
+	margin-left: 40px;
+	
+}
+.middle_ul1 .xiabiank4 {/*下边框位置*/
+	width: 230px;
+	height: 180px;
+	border: #E7E7E7 1px solid;
+	float: left;
+	position: absolute;
+	left: 757px;
+	margin-left: 50px;
+}
+.middle_ul2 .shouye_middle{
+	width: 230px;
+	height: 130px;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+.middle_ul2 .xiabiank5 {/*下边框位置*/
+	width: 230px;
+	height: 180px;
+	border: #E7E7E7 1px solid;
+	float: left;
+	top: 263px;
+	position: absolute;
+	margin-left: 20px;
+}
+.middle_ul2 .xiabiank6 {/*下边框位置*/
+	width: 230px;
+	height: 180px;
+	border: #E7E7E7 1px solid;
+	float: left;
+	top: 263px;
+	left: 272px;
+	position: absolute;
+	margin-left: 30px;
+}
+.middle_ul2 .xiabiank7 {/*下边框位置*/
+	width: 230px;
+	height: 180px;
+	border: #E7E7E7 1px solid;
+	float: left;
+	top: 263px;
+	left: 514px;
+	position: absolute;
+	margin-left: 40px;
+}
+.middle_ul2 .xiabiank8 {/*下边框位置*/
+	width: 230px;
+	height: 180px;
+	border: #E7E7E7 1px solid;
+	float: left;
+	top: 263px;
+	left: 757px;
+	position: absolute;
+	margin-left: 50px;
+}
+.shouye_middle_wz{/*文字位置*/
+	position: absolute;
+	top: 150px;
+	left: 20px;
+}

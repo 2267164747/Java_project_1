@@ -1,0 +1,625 @@
+/*展示图的框架*/
+#top_div{
+	width: 1348px;
+	height: 400px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 60px;
+}
+/*展示图*/
+#top_img{
+	width:1348px;
+	height: 400px;
+	background-size:100% 100%;
+	position: absolute;
+}
+/*中间部分大框*/
+#B_form{	
+	width: 1250px;
+	height: 3500px;
+	/*border: 1px solid red;*/
+	/*opacity: 0.4;*/
+	position: absolute;
+	left: 53px;
+	/*margin: 0 auto;*/
+	top: 460px;
+}
+/*索引栏*/
+#suoyin{
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+/*场地名字*/
+#top_title{
+	position: absolute;
+	left: 30px;
+	top: 60px;
+	font-size: 50px;
+}
+/*场地的标签*/
+#title_biaoqian{
+	position: absolute;
+	top:80px;
+	left: 250px;
+	width: 110px;
+	height: 40px;
+	font-size: 25px;
+	background-color: peachpuff;
+	color: plum;
+	text-align: center;
+}
+/*地址*/
+#address{
+	position: absolute;
+	top: 140px;
+	left: 30px;
+	color: #AAAAAA;
+	font-size: 25px;
+}
+/*联系电话*/
+#phone{
+	position: absolute;
+	top: 120px;
+	left: 850px;
+	color: black;
+	font-size: 25px;
+}
+/*第一条水平线*/
+#hr1{
+	padding-right:700px;
+	position: absolute;
+	top:220px;
+	margin-left: 25px;
+}
+/*预约的框架*/
+#YuYue_box{
+	position: absolute;
+	top: 180px;
+	left: 850px;
+	width: 400px;
+	height: 400px;
+	border: 1px solid grey;
+	background-color: #E7E7E7;
+}
+/*标题标签*/
+#BT_biaoqian{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	
+}
+/*有序列表1*/
+#Ul1{
+	position: absolute;
+	left: 30px;
+	top:110px;
+	list-style: none;
+	color: grey;
+}
+#Ul1 li{
+	width: 350px;
+	height: 80px;
+}
+/*姓名文本框*/
+#peoName{
+	width: 306px;
+	height: 76px;
+	font-size: 20px;
+	padding-left:40px;
+}
+/*电话文本框*/
+#peoPhone{
+	width: 306px;
+	height: 76px;
+	font-size: 20px;
+	padding-left:40px;
+}
+/*预约按钮*/
+#bookSub{
+	width: 350px;
+	height: 60px;
+	position: absolute;
+	top: 300px;
+	left: 30px;
+	font-size: 20px;
+	background-color: #dd3b44;
+	color: white;
+}
+/*品牌故事标题*/
+#PingPai{
+	position: absolute;
+	top: 260px;
+	left: 30px;
+	font-size: 30px;
+	color: black;
+}
+/*品牌故事介绍*/
+#P_txt{
+	width: 560px;
+	height: 300px;
+	position: absolute;
+	font-size: 18px;
+    line-height: 40px;
+	top: 270px;
+	left: 200px;
+	color: black;
+}
+/*第二条水平线*/
+#hr2{
+	padding-right:700px;
+	position: absolute;
+	top:470px;
+	margin-left: 25px;
+}
+/*特色亮点标题*/
+#TeSe{
+	position: absolute;
+	top:510px;
+	left: 30px;
+	font-size: 30px;
+	color: black;
+}
+/*特色亮点介绍*/
+#T_txt{
+	position: absolute;
+	top: 510px;
+	left:180px;
+	font-size: 18px;
+}
+.td1{
+	width: 100px;
+	height: 30px;
+	color: #AAAAAA;
+}
+.td2{
+	width: 520px;
+	height: 30px;
+	color: black;
+}
+/*第三条水平线*/
+#hr3{
+	padding-right:700px;
+	position: absolute;
+	top:760px;
+	margin-left: 25px;
+}
+/*独家优惠标题*/
+#DuJia{
+	position: absolute;
+	top:800px;
+	left: 30px;
+	font-size: 30px;
+	color: black;
+}
+/*独家优惠内容*/
+#D_txt{
+	position: absolute;
+	list-style: none;
+	top: 800px;
+	left: 200px;
+}
+.li1{
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	color: red;
+}
+.li2{
+	width: 500px;
+	height: 50px;
+	font-size: 18px;
+	color: black;
+}
+/*领取优惠*/
+#YHK{
+	position: absolute;
+	top: 1500px;
+	left: 200px;
+	width: 120px;
+	height:50px;
+	border: 2px solid pink;
+	border-radius: 5px;
+	color:pink;
+	padding-top: 12px ;
+	text-align: center;
+	font-size: 25px;
+}
+/*第四条水平线*/
+#hr4{
+	padding-right:700px;
+	position: absolute;
+	top:1610px;
+	margin-left: 25px;
+}
+/*模糊框*/
+#MHk{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.1;
+	display: none;
+}
+/*模糊后预约的框架*/
+#YuYue_box1{
+	position: absolute;
+	top:1200px;
+	left:460px;
+	width: 400px;
+	height: 400px;
+	border: 1px solid grey;
+	background-color: #E7E7E7;
+	display: none;
+}
+/*模糊后标题标签*/
+#BT_biaoqian1{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	
+}
+/*模糊后的关闭按钮*/
+#GuanBi{
+	position: absolute;
+	left: 340PX;
+	top: 2px;
+	width: 50px;
+	height: 20px;
+}
+/*模糊后有序列表1*/
+#Ul2{
+	position: absolute;
+	left: 30px;
+	top:110px;
+	color: grey;
+}
+#Ul2 li{
+	width: 350px;
+	height: 80px;
+}
+/*模糊后姓名文本框*/
+#peoName1{
+	width: 306px;
+	height: 76px;
+	font-size: 20px;
+	padding-left:40px;
+}
+/*模糊后电话文本框*/
+#peoPhone1{
+	width: 306px;
+	height: 76px;
+	font-size: 20px;
+	padding-left:40px;
+}
+/*模糊后预约按钮*/
+#bookSub1{
+	width: 350px;
+	height: 60px;
+	position: absolute;
+	top: 300px;
+	left: 30px;
+	font-size: 20px;
+	background-color: #dd3b44;
+	color: white;
+}
+/*宴会厅标签*/
+#YanHui{
+	position: absolute;
+	top:1650px;
+	left: 30px;
+	font-size: 30px;
+	color: black;
+}
+/*宴会厅1*/
+#YHT1{
+	position: absolute;
+	top:1650px;
+	left: 200px;
+	font-size: 30px;
+	color: black;
+}
+/*宴会厅1的内容*/
+#YHT1_txt{
+	position: absolute;
+	top:1710px ;
+	left: 200px;
+	font-size: 18px;
+}
+.a{
+	width: 100px;
+	height: 50px;
+	color: #AAAAAA;
+}
+.b{
+	width: 100px;
+	height: 50px;
+	color: black;
+}
+/*宴会厅1的图片*/
+#YHT1_img{
+	position: absolute;
+	top: 1890px;
+	left: 200px;
+	width: 600px;
+	height: 300px;
+}
+/*第五个水平线*/
+#hr5{
+	padding-right:520px;
+	position: absolute;
+	top:2220px;
+	margin-left: 200px;
+}
+/*宴会厅2*/
+#YHT2{
+	position: absolute;
+	top:2240px;
+	left: 200px;
+	font-size: 30px;
+	color: black;
+}
+/*宴会厅2的内容*/
+#YHT2_txt{
+	position: absolute;
+	top:2290px ;
+	left: 200px;
+	font-size: 18px;
+}
+.a{
+	width: 100px;
+	height: 50px;
+	color: #AAAAAA;
+}
+.b{
+	width: 100px;
+	height: 50px;
+	color: black;
+}
+/*宴会厅2的图片*/
+#YHT2_img{
+	position: absolute;
+	top:2470px;
+	left: 200px;
+	width: 600px;
+	height: 300px;
+}
+/*第六个水平线*/
+#hr6{
+	padding-right:520px;
+	position: absolute;
+	top:2800px;
+	margin-left: 200px;
+	display: none;
+}
+/*加载*/
+#JaiZai{
+	position: absolute;
+	top: 2820px;
+	left: 200px;
+	color: #87CEFA;
+}
+/*加载后出现的页面*/
+#JaiZaiKuang{
+	width: 1250px;
+	height: 1760px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 0px;
+	top: 2820px;
+	display: none;
+}
+/*宴会厅3*/
+#YHT3{
+	position: absolute;
+	top:10px;
+	left: 200px;
+	font-size: 30px;
+	color: black;
+}
+/*宴会厅3的内容*/
+#YHT3_txt{
+	position: absolute;
+	top:60px ;
+	left: 200px;
+	font-size: 18px;
+}
+.a{
+	width: 100px;
+	height: 50px;
+	color: #AAAAAA;
+}
+.b{
+	width: 100px;
+	height: 50px;
+	color: black;
+}
+/*宴会厅3的图片*/
+#YHT3_img{
+	position: absolute;
+	top:250px;
+	left: 200px;
+	width: 600px;
+	height: 300px;
+}
+/*第七个水平线*/
+#hr7{
+	padding-right:520px;
+	position: absolute;
+	top:580px;
+	margin-left: 200px;
+}
+/*宴会厅4*/
+#YHT4{
+	position: absolute;
+	top:610px;
+	left: 200px;
+	font-size: 30px;
+	color: black;
+}
+/*宴会厅4的内容*/
+#YHT4_txt{
+	position: absolute;
+	top:660px ;
+	left: 200px;
+	font-size: 18px;
+}
+.a{
+	width: 100px;
+	height: 50px;
+	color: #AAAAAA;
+}
+.b{
+	width: 100px;
+	height: 50px;
+	color: black;
+}
+/*宴会厅4的图片*/
+#YHT4_img{
+	position: absolute;
+	top:840px;
+	left: 200px;
+	width: 600px;
+	height: 300px;
+}
+/*第8个水平线*/
+#hr8{
+	padding-right:520px;
+	position: absolute;
+	top:1170px;
+	margin-left: 200px;
+}
+/*宴会厅5*/
+#YHT5{
+	position: absolute;
+	top:1200px;
+	left: 200px;
+	font-size: 30px;
+	color: black;
+}
+/*宴会厅5的内容*/
+#YHT5_txt{
+	position: absolute;
+	top:1250px ;
+	left: 200px;
+	font-size: 18px;
+}
+.a{
+	width: 100px;
+	height: 50px;
+	color: #AAAAAA;
+}
+.b{
+	width: 100px;
+	height: 50px;
+	color: black;
+}
+/*宴会厅5的图片*/
+#YHT5_img{
+	position: absolute;
+	top:1430px;
+	left: 200px;
+	width: 600px;
+	height: 300px;
+}
+/*菜单*/
+#CaiDan{
+	width: 800px;
+	height: 230px;
+	position: absolute;
+	/*border: 1px solid red;*/
+	top: 2860px;
+	left: 30px;
+}
+/*第9个水平线*/
+#hr9{
+	padding-right:693px;
+	position: absolute;
+	top:20px;
+	left: -200px;
+	margin-left: 200px;
+}
+/*宴会餐标*/
+#Ch{
+	position: absolute;
+	top:40px;
+	left: 0px;
+	font-size: 30px;
+	color: black;
+}
+/*菜单标签*/
+#CaiPing{
+	position: absolute;
+	top:60px;
+	left: 170px;
+	font-size: 30px;
+	color: black;
+}
+/*婚宴价格*/
+#jiage{
+	position: absolute;
+	top:70px;
+	left: 370px;
+	font-size: 18px;
+	color: red;
+}
+/*餐会内容*/
+#Ch_txt{
+	position: absolute;
+	left: 170px;
+	top: 110px;
+	font-size: 18px;
+	color: black;
+}
+#Ch_txt li{
+	list-style: disc;
+}
+/*第10个水平线*/
+#hr10{
+	padding-right:693px;
+	position: absolute;
+	top:210px;
+	left: -200px;
+	margin-left: 200px;
+}
+/*场地推荐*/
+#TuiJian{
+	width: 1220px;
+	height: 370px;
+	position: absolute;
+	/*border: 1px solid red;*/
+	top: 3090px;
+	left: 30px;
+}
+/*推荐*/
+#TuiJian_txt{
+	position: absolute;
+	top:20px;
+	left: 0px;
+	font-size: 30px;
+	color: black;
+}
+/*推荐场地1*/
+#Tuijian_1{
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	width: 390px;
+	height: 300px;
+}
+/*推荐场地2*/
+#Tuijian_2{
+	position: absolute;
+	top: 70px;
+	left: 415px;
+	width: 390px;
+	height: 300px;
+}
+/*推荐场地3*/
+#Tuijian_3{
+	position: absolute;
+	top: 70px;
+	left: 830px;
+	width: 390px;
+	height: 300px;
+}
+

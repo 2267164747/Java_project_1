@@ -1,0 +1,15 @@
+#dinbu{
+	position: fixed;
+	top:490px;
+	right: 38px;
+	width: 25px;
+	height: 25px;
+	float: right;
+}
+.fanhui{
+	margin-top: 7px;
+}
+.fanhui :hover{
+background-color: #ECA3AA;
+}
+

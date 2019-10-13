@@ -1,0 +1,31 @@
+body{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+#box_zhang_top{width: 1150px;height: 100px;background-color: #F8F8F8;border: 2px solid #E6E6E6;margin-left:30px;margin-top: 80px;line-height: 50px;font-size: 15px;font-family: "微软雅黑";}
+#box_zhang_top #box_zhang_top1,#box_zhang_top2,#box_zhang_top3,#box_zhang_top4,#box_zhang_top5,#box_zhang_top6,#box_zhang_top7{width: 1150px;height: 48px;background-color: white;border-top: 1.5px solid #e6e6e6;position: absolute;top: 190px;line-height: 50px;font-size: 15px;font-family: "微软雅黑";}
+#box_zhang_top #box_zhang_top2,#box_zhang_top3,#box_zhang_top4,#box_zhang_top5,#box_zhang_top6,#box_zhang_top7{display: none;}
+/*#box_zhang_top #box_zhang_top2,#box_zhang_top3,#box_zhang_top4,#box_zhang_top5,#box_zhang_top6,#box_zhang_top7:hover{display: block;}*/
+#box_zhang_top #a_box0,#a_box1,#a_box2,#a_box3,#a_box4,#a_box5,#a_box6{float: left;margin-left: 0px;width: 100px;height: 50px;}
+#box_zhang_top #a_box0{margin-left: 38px;}
+/*#box_zhang_top #a_box1:hover + #box_zhang_top2{display: block;}
+*/
+#box1{width: 865px;height: 500px;margin-left: 30px;}
+.box_zhang_num1_a{width: 0px; height: 190px;}
+.box_zhang_num1_a .box_zhang_num1_a1{width: 750px;;height: 40px;margin-top: 20px;font-size: 20px;font-family: "微软雅黑";}
+.box_zhang_num1_a .box_zhang_num1_a2{width: 750px;height: 50px;position: relative;top: 10px;font-size: 15px;}
+.box_zhang_num1_a .box_zhang_num1_a3{width: 200px;height: 20px;position: relative;top: 30px;}
+.box_zhang_num1_a .box_zhang_num1_a4{position: relative;top: -120px;left:760px;}
+.box_zhang_num1_a .box_zhang_num1_a3 span{color: #c9c9c9;}
+#box1 img:hover{opacity: 0.7;}
+.box_zhang_num1_a .box_zhang_num1_a5{width: 865px;height: 1px;border-bottom: 1px dashed #E6E6E6;position:relative;top: -50px;}
+.box_zhang_tuijian{width: 300px;height: 600px;position: absolute;top: 300px;left: 950px;}
+.box_zhang_tuijian .box_zhang_tuijian1{width: 300px;height: 30px;}
+.box_zhang_tuijian .box_zhang_tuijian1 span{font-size: 20px;font-family: "微软雅黑";}
+.box_zhang_tuijian .box_zhang_tuijian2{width: 280px;height: 250px;border: 1px solid #E6E6E6;margin-top: 30px;}
+.box_zhang_tuijian img:hover{opacity: 0.7;}
+/*.box_zhang_num1_a:hover{box-shadow: 0px 0px 30px #ededed;}
+#box{transition: all 1000ms;}*/
+#box_zhang_num1{position: absolute;top: 100px;left: 100px;font-size: 15px;}

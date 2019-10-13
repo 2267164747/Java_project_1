@@ -1,0 +1,603 @@
+/*灞曠ず鍥剧殑妗嗘灦*/
+#top_div{
+	width: 1348px;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+#top_img1{
+	width:1348px;
+	height: 400px;
+	background-size:100% 100%;
+}
+.hall{
+	width:100%;
+	float:left;
+	margin-top: 20px;
+}
+/*涓棿閮ㄥ垎澶ф*/
+#B_form{	
+	width: 1250px;
+	/*border: 1px solid red;*/
+	/*opacity: 0.4;*/
+	float: left;
+	/*margin: 0 auto;*/
+}
+
+#suoyin{
+	float: left;
+	width: 100%;
+	margin:10px 0 0 8%;
+}
+/*鍦哄湴鍚嶅瓧*/
+#top_title{
+	float:left;
+	font-size: 50px;
+	margin:20px 0 0 8%;
+
+}
+
+#title_biaoqian{
+	float:left;
+	margin:45px 0 0 20px;
+	width: 110px;
+	font-size: 25px;
+	background-color: peachpuff;
+	color: plum;
+	text-align: center;
+}
+
+#address{
+	float:left;
+	margin:30px 0 0 8%;
+	color: #AAAAAA;
+	font-size: 25px;
+}
+/*鑱旂郴鐢佃瘽*/
+#phone{
+	float:right;
+	margin:20px 0 0 0;
+	color: black;
+	font-size: 25px;
+}
+/*绗竴鏉℃按骞崇嚎*/
+#hr1{
+	padding-right:700px;
+	position: absolute;
+	top:220px;
+	margin-left: 25px;
+}
+
+#YuYue_box{
+	position: absolute;
+	top: 180px;
+	left: 850px;
+	width: 400px;
+	height: 350px;
+	border: 1px solid grey;
+	background-color: #E7E7E7;
+}
+/*鏍囬鏍囩*/
+#BT_biaoqian{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	
+}
+/*鏈夊簭鍒楄〃1*/
+#Ul1{
+	position: absolute;
+	left: 30px;
+	top:110px;
+	list-style: none;
+	color: grey;
+}
+#Ul1 li{
+	width: 350px;
+	height: 80px;
+}
+
+#peoName{
+	width: 306px;
+	height: 50px;
+	font-size: 20px;
+	padding-left:40px;
+}
+
+#peoText{
+	width: 306px;
+	height: 80px;
+	font-size: 20px;
+	padding-left:40px;
+}
+/*棰勭害鎸夐挳*/
+#bookSub{
+	width: 350px;
+	height: 60px;
+	position: absolute;
+	top: 280px;
+	left: 30px;
+	font-size: 20px;
+	background-color: #dd3b44;
+	color: white;
+}
+/*鍝佺墝鏁呬簨鏍囬*/
+#PingPai{
+	margin:50px 700px 0 8%;
+	float:left;
+	font-size: 30px;
+	color: black;
+}
+/*鍝佺墝鏁呬簨浠嬬粛*/
+#P_txt{
+	width: 560px;
+	font-size: 18px;
+    line-height: 40px;
+	margin:-30px 50% 0 300px;
+	float:left;
+	color: black;
+}
+/*绗簩鏉℃按骞崇嚎*/
+#hr2{
+	padding-right:700px;
+	position: absolute;
+	top:470px;
+	margin-left: 25px;
+}
+/*鐗硅壊浜偣鏍囬*/
+#TeSe{
+	float:left;
+	margin:20px 0 0 8%;
+	font-size: 30px;
+	color: black;
+}
+/*鐗硅壊浜偣浠嬬粛*/
+#T_txt{
+	float:left;
+	margin:50px 0 0 30px;
+	width:80%;
+	font-size: 18px;
+}
+.td1{
+	width: 100px;
+	height: 30px;
+	color: #AAAAAA;
+}
+.td2{
+	width: 520px;
+	height: 30px;
+	color: black;
+}
+/*绗笁鏉℃按骞崇嚎*/
+#hr3{
+	padding-right:700px;
+	position: absolute;
+	top:760px;
+	margin-left: 25px;
+}
+/*鐙浼樻儬鏍囬*/
+#DuJia{
+	float:left;
+	margin:20px 0 0 8%;
+	font-size: 30px;
+	color: black;
+}
+/*鐙浼樻儬鍐呭*/
+#D_txt{
+	list-style: none;
+	float: left;
+	margin: 30px 0 0 50px;
+	width: 70%;
+}
+.li1{
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	color: red;
+}
+.li2{
+	width: 500px;
+	height: 50px;
+	font-size: 18px;
+	color: black;
+}
+/*棰嗗彇浼樻儬*/
+#YHK{
+	float:left;
+	margin:20px 80% 0 22%;
+	width: 120px;
+	height:50px;
+	border: 2px solid pink;
+	border-radius: 5px;
+	color:pink;
+	padding-top: 12px ;
+	text-align: center;
+	font-size: 25px;
+}
+/*绗洓鏉℃按骞崇嚎*/
+#hr4{
+	padding-right:700px;
+	position: absolute;
+	top:1610px;
+	margin-left: 25px;
+}
+
+#MHk{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.1;
+	display: none;
+}
+/*妯＄硦鍚庨绾︾殑妗嗘灦*/
+#YuYue_box1{
+	float:left;
+	width: 400px;
+	height: 400px;
+	border: 1px solid grey;
+	background-color: #E7E7E7;
+	display: none;
+}
+
+#BT_biaoqian1{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	
+}
+/*妯＄硦鍚庣殑鍏抽棴鎸夐挳*/
+#GuanBi{
+	position: absolute;
+	left: 340PX;
+	top: 2px;
+	width: 50px;
+	height: 20px;
+}
+/*妯＄硦鍚庢湁搴忓垪琛�*/
+#Ul2{
+	position: absolute;
+	left: 30px;
+	top:110px;
+	color: grey;
+}
+#Ul2 li{
+	width: 350px;
+	height: 80px;
+}
+/*妯＄硦鍚庡鍚嶆枃鏈*/
+#peoName1{
+	width: 306px;
+	height: 76px;
+	font-size: 20px;
+	padding-left:40px;
+}
+/*妯＄硦鍚庣數璇濇枃鏈*/
+#peoPhone1{
+	width: 306px;
+	height: 76px;
+	font-size: 20px;
+	padding-left:40px;
+}
+
+#bookSub1{
+	width: 350px;
+	height: 60px;
+	position: absolute;
+	top: 300px;
+	left: 30px;
+	font-size: 20px;
+	background-color: #dd3b44;
+	color: white;
+}
+
+#YanHui{
+	float:left;
+	margin:0px 0 0 8%;
+	font-size: 30px;
+	color: black;
+}
+/*瀹翠細鍘�*/
+.cont{
+	width:100%;
+	float: left;
+}
+.YHT1{
+	float:left;
+	margin-left: 80px;
+	width:60%;
+	font-size: 30px;
+	color: black;
+}
+
+.YHT1_txt{
+	float:left;
+	margin-top:20px ;
+	margin-left: 8%;
+	font-size: 18px;
+}
+.a{
+	width: 100px;
+	height: 50px;
+	color: #AAAAAA;
+}
+.b{
+	width: 100px;
+	height: 50px;
+	color: black;
+}
+
+.YHT1_img{
+	float:left;
+	margin-top:30px;
+	margin-left: 8%;
+	width: 600px;
+	height: 300px;
+}
+
+.hr5{
+	padding-right:520px;
+	position: absolute;
+	top:2220px;
+	margin-left: 200px;
+}
+/*瀹翠細鍘�*/
+#YHT2{
+	position: absolute;
+	top:2240px;
+	left: 200px;
+	font-size: 30px;
+	color: black;
+}
+
+#YHT2_txt{
+	position: absolute;
+	top:2290px ;
+	left: 200px;
+	font-size: 18px;
+}
+.a{
+	width: 100px;
+	height: 50px;
+	color: #AAAAAA;
+}
+.b{
+	width: 100px;
+	height: 50px;
+	color: black;
+}
+
+#YHT2_img{
+	position: absolute;
+	top:2470px;
+	left: 200px;
+	width: 600px;
+	height: 300px;
+}
+/*绗叚涓按骞崇嚎*/
+#hr6{
+	padding-right:520px;
+	position: absolute;
+	top:2800px;
+	margin-left: 200px;
+	display: none;
+}
+/*鍔犺浇*/
+#JaiZai{
+	float:left;
+	margin:20px 0 0 22%;
+	color: #87CEFA;
+}
+/*鍔犺浇鍚庡嚭鐜扮殑椤甸潰*/
+#JaiZaiKuang{
+	width: 1250px;
+	height: 1760px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 0px;
+	top: 2820px;
+	display: none;
+}
+/*瀹翠細鍘�*/
+#YHT3{
+	position: absolute;
+	top:10px;
+	left: 200px;
+	font-size: 30px;
+	color: black;
+}
+
+#YHT3_txt{
+	position: absolute;
+	top:60px ;
+	left: 200px;
+	font-size: 18px;
+}
+.a{
+	width: 100px;
+	height: 50px;
+	color: #AAAAAA;
+}
+.b{
+	width: 100px;
+	height: 50px;
+	color: black;
+}
+
+#YHT3_img{
+	position: absolute;
+	top:250px;
+	left: 200px;
+	width: 600px;
+	height: 300px;
+}
+/*绗竷涓按骞崇嚎*/
+#hr7{
+	padding-right:520px;
+	position: absolute;
+	top:580px;
+	margin-left: 200px;
+}
+/*瀹翠細鍘�*/
+#YHT4{
+	position: absolute;
+	top:610px;
+	left: 200px;
+	font-size: 30px;
+	color: black;
+}
+
+#YHT4_txt{
+	position: absolute;
+	top:660px ;
+	left: 200px;
+	font-size: 18px;
+}
+.a{
+	width: 100px;
+	height: 50px;
+	color: #AAAAAA;
+}
+.b{
+	width: 100px;
+	height: 50px;
+	color: black;
+}
+
+#YHT4_img{
+	position: absolute;
+	top:840px;
+	left: 200px;
+	width: 600px;
+	height: 300px;
+}
+/*绗�涓按骞崇嚎*/
+#hr8{
+	padding-right:520px;
+	position: absolute;
+	top:1170px;
+	margin-left: 200px;
+}
+/*瀹翠細鍘�*/
+#YHT5{
+	position: absolute;
+	top:1200px;
+	left: 200px;
+	font-size: 30px;
+	color: black;
+}
+
+#YHT5_txt{
+	position: absolute;
+	top:1250px ;
+	left: 200px;
+	font-size: 18px;
+}
+.a{
+	width: 100px;
+	height: 50px;
+	color: #AAAAAA;
+}
+.b{
+	width: 100px;
+	height: 50px;
+	color: black;
+}
+
+#YHT5_img{
+	position: absolute;
+	top:1430px;
+	left: 200px;
+	width: 600px;
+	height: 300px;
+}
+/*鑿滃崟*/
+#CaiDan{
+	width: 800px;
+	height: 230px;
+	float:left;
+	margin:20px  0 0 4%;
+}
+/*绗�涓按骞崇嚎*/
+#hr9{
+	padding-right:693px;
+	position: absolute;
+	top:20px;
+	left: -200px;
+	margin-left: 200px;
+}
+/*瀹翠細椁愭爣*/
+#Ch{
+	float:left;
+	margin:20px 0 0 8%;
+	font-size: 30px;
+	color: black;
+}
+/*鑿滃崟鏍囩*/
+#CaiPing{
+	float:left;
+	margin:30px 0 0 5%;
+	font-size: 30px;
+	color: black;
+}
+/*濠氬浠锋牸*/
+#jiage{
+    float:left;
+    margin:40px 0 0 30px;
+	font-size: 18px;
+	color: red;
+}
+/*椁愪細鍐呭*/
+#Ch_txt{
+	float:left;
+	margin-left: 220px;
+	margin-top: 20px;
+	font-size: 18px;
+	color: black;
+}
+#Ch_txt li{
+	list-style: disc;
+}
+/*绗�0涓按骞崇嚎*/
+#hr10{
+	padding-right:693px;
+	position: absolute;
+	top:210px;
+	left: -200px;
+	margin-left: 200px;
+}
+/*鍦哄湴鎺ㄨ崘*/
+#TuiJian{
+	width: 1400px;
+	height: 370px;
+	float:left;
+	margin:20px 0 0 0;
+}
+/*鎺ㄨ崘*/
+#TuiJian_txt{
+	float:left;
+	margin:20px 0 0 8%;
+	font-size: 30px;
+	color: black;
+}
+/*鎺ㄨ崘鍦哄湴1*/
+#Tuijian_1{
+float:left;
+	margin:20px 0 0 0;
+	width: 390px;
+	height: 300px;
+}
+/*鎺ㄨ崘鍦哄湴2*/
+#Tuijian_2{
+	float:left;
+	margin:20px 0 0 10px;
+	width: 390px;
+	height: 300px;
+}
+/*鎺ㄨ崘鍦哄湴3*/
+#Tuijian_3{
+	float:left;
+	margin:20px 0 0 10px;
+	width: 390px;
+	height: 300px;
+}
+

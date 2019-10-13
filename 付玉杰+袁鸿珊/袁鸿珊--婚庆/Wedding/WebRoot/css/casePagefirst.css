@@ -1,0 +1,239 @@
+/****************设置全局变量******************/
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+#casePageBox{
+	margin: 0 auto;
+	width: 1200px;
+	/*border: 1px solid red;*/
+}
+/****************头部导航***********/
+#casePage_title{
+	font-size:14px;
+}
+/*********************页面设置**********************/
+.pageContent{
+	width:1200px;
+	margin-top: 20px;
+}
+/************************页面左边*****************/
+#casePageBox .caseLeft{
+	width: 870px;
+	/*border: 1px solid black;*/
+	float: left;
+}
+.caseLeft h1{
+	text-align: center;
+	font-size: 26px;
+	font-weight: lighter;
+	margin-bottom: 6px;
+}
+.caseLeft p{
+	line-height:  14px;
+	font-size: 12px;
+	height: 14px;
+	color: #949494;
+	text-align: center;
+}
+.caseLeft p span {
+    margin-right: 20px;
+}
+.caseLeft p span a {
+	color: #949494;
+}
+.caseLeft p span a:hover{
+	text-decoration: underline;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!婚礼简介！！！！！！！！！！！！！！！！*/
+.caseShowDescription {
+	margin-top: 20px;
+	height:100px;
+    overflow: hidden;
+    padding: 15px 25px;
+    background-color: #fafcfc;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+}
+.caseShowDescription strong {
+    overflow: hidden;
+    display: block;
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+.caseShowDescription strong i {
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    background: url(../img/caseImg/iconmessage.png) no-repeat;
+    margin: 1px 10px 1px 0;
+}
+em, i {
+    font-style: normal;//让em之间的字体变为正常
+}
+.caseShowDescription p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #777;
+    text-align: left;
+}
+.caseShowTxt {
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #fafcfc;
+    border: 1px solid #eee;
+    padding: 15px 25px;
+}
+.caseShowTxt p {
+	height: 481px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.caseShowTxt img {
+    display: block;
+    margin: 10px auto;
+}
+.caseShowTxt #font{
+	border-top:1px solid #eee ;
+	border-bottom: 1px solid #eee;
+	padding-top: 10px;
+	font-size: 18px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+/****************************页面右边****************/
+#casePageBox .caseRight{
+	width: 320px;
+	height: 800px;
+	/*border: 1px solid black;*/
+	/*margin-left: 880px;*/
+	position: fixed;
+	left: 960px;
+}
+.caseRight h2 {
+    font-size: 20px;
+    color: #3A3A3A;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.design {
+    font-size: 16px;
+    color: #4A4A4A;
+    margin-bottom: 6px;
+    font-weight: 400;
+}
+.basic{
+	font-size: 16px;
+    color: #4A4A4A;
+    margin-top: -25px;
+    margin-bottom: 6px;
+    font-weight: 400;
+}
+.case-overflow{
+	position: relative;
+}
+.content-text {
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 0px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    height: 85px;
+    overflow: hidden;
+    position: relative;
+}
+.caseRight ul {
+    margin-bottom: 20px;
+    list-style: none;
+}
+.caseRight ul li{
+	/*width: 100%;*/
+	margin-left: -15px;
+	margin-bottom: 8px;
+	padding-left: 15px;
+	width: 325px;
+}
+.caseRight ul li p{
+	float: left;
+	width: 160px;
+	/*border: 1px solid red;*/
+}
+.caseRight ul li p span{
+	font-size: 14px;
+	color: #999999;
+    margin-right: 10px;
+}
+.caseRight ul li p .later{
+	color: black;
+}
+/*******************预约咨询***********************/
+.caseRight .book {
+    width: 320px;
+    height: 290px;
+    background: #F9F9F9;
+    border: 1px solid rgba(226,226,226,0.99);
+    margin-top: 100px;
+}
+.caseRight .book h3 {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 16px;
+    color: rgba(58,58,58,0.99);
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+.caseRight .book .area-box {
+    width: 280px;
+    height: 120px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    margin: 0 auto;
+    box-shadow: 0px 0px 4px 1px #EAEAEA;
+    border-radius: 5px;
+}
+.caseRight .book .area-box li {
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    position: relative;
+}
+.caseRight .book .area-box li input {
+    margin-left: 10px;
+    width: 234px;
+    height: 58px;
+    font-size: 14px;
+    color: rgba(58,58,58,0.99);
+    letter-spacing: 0.8px;
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    box-sizing: border-box;
+}
+.caseRight .book .errorMes {
+    width: 100%;
+    padding-left: 19px;
+    margin: 8px 0px;
+    visibility:hidden;
+    color: #FB515A;
+}
+.caseRight .book #bookSub {
+    width: 280px;
+    border: 1px solid #FB515A;
+    background: #FB515A;
+    border-radius: 2px;
+    height: 50px;
+    font-size: 16px;
+    margin-left: 16px;
+    color: rgba(255,255,255,0.99);
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}

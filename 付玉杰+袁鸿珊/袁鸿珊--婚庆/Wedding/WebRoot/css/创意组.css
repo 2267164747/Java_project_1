@@ -1,0 +1,99 @@
+*{margin:0; padding:0; list-style:none;font-family: "微软雅黑"; }
+	body{font:normal 12px/22px 宋体;  }
+	img{ border:0;  }
+	a{ text-decoration:none; color:#333;  }
+	a:hover{ color:#FF8400;  }
+	.js{width:90%; margin:10px auto 0 auto; }
+	.js p{ padding:5px 0; font-weight:bold; overflow:hidden;  }
+	.js p span{ float:right; }
+	.js p span a{ color:#f00; text-decoration:underline;   }
+	.js textarea{ height:190px;  width:98%; padding:5px; border:1px solid #ccc; border-top:2px solid #aaa;  border-left:2px solid #aaa;  }
+
+	/* 本例子css */
+	.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+	.navBar{  position:relative; z-index:1; padding-left:400px;   height:60px; line-height:60px; /*background:url(img/line.gif) repeat-x 0 bottom #fff; color:#333; */ background-color: rgba(255,255,255,0.6); }
+	.nav{ position:relative; width:980px; margin:0 auto;  font-family:"Microsoft YaHei",SimSun,SimHei; font-size:14px; }
+	.nav a{ color:#333;  }
+	.nav h3{ font-size:100%; font-weight:normal;   }
+	.nav .m{ float:left;  position:relative; z-index:1; }
+	.nav .s{ float:left; width:3px; text-align:center; color:#D4D4D4; font-size:12px; }
+	.nav h3 a{ display:block; width:124px; text-align:center;   font-weight:bold;  }
+	.nav .sub{ display:none; /*默认隐藏*/  position:absolute; left:-3px; top:60px; z-index:1; width:128px; border:1px solid #E6E4E3; border-top:0; background-color: rgba(255,255,255,0.6); }
+	.nav .sub li{ text-align:center; padding:0 8px; margin-bottom:-1px;   }
+	.nav .sub li a{ display:block;  border-bottom:1px solid #E6E4E3; padding:8px 0; height:28px; line-height:28px; color:#666;   }
+	.nav .sub li a:hover{ color:#FE7700;   }
+	.nav .block{ height:3px; width:130px; background:#FE7700; position:absolute; left:0; top:57px; overflow:hidden;  }
+	.box{
+		width: 800px;
+		height: 500px;
+		background-color: rgba(255,255,255,0.2);
+		border: 1px solid #FFFFFF ;
+		margin: 10px auto; 
+	}
+	.imgtop{
+		position: absolute;
+		left:70px;
+		top:-15px
+	}
+	.bottom{
+		width: 100%;
+		height: 400px;
+		background-color: rgba(255,255,255,0.7);
+		position: absolute;
+		top: 3670px;
+	}
+	.bottom .footer .w .footer-title{
+		width: 1000px;
+		height: 70px;
+		border-bottom: 1px #DDDDDD solid;
+		line-height: 70px;
+		margin: 5px auto;
+		
+	}
+	.bottom .footer .w {font-size:14px;font-family:"Microsoft YaHei"}
+	.bottom .footer .w .fr{position: absolute; left:900px; top: 5px;font-size: 20px;color: lightpink;}
+	.bottom .footer .w .web-nav{width: 70px;height: 200px;position: absolute; left: 130px;line-height: 30px;}
+	.bottom .footer .w .contact{width: 300px;height: 200px;position: absolute; left: 350px;line-height: 30px;}
+	.bottom .footer .w .about-amazing{width: 300px;height: 200px;position: absolute; left: 900px;line-height: 30px;}
+	#blance_z{
+		width: 100%;
+		height: 900px;
+		background-color:  #158ee1;
+		position: relative;
+		top: -120px;
+	}
+
+#blance_z img{width: 150px;position: absolute; top: 20px;left: 100px;}
+#blance_z #box_top_wen{color: white;font-size: 23px;position: absolute;top: 180px;left: 75px;}
+.box_top_lab a{color: white; font-size: 20px;text-decoration: none;}
+.box_top_lab{width: 690px;height:100px;position: absolute;left: 500px;top: 180px;letter-spacing: 4px;text-align: center;}
+.box_top_lab a{border-bottom: 3px solid rgba(255,255,255,0.0);padding-bottom:8px ;transition: all 500ms;}
+.box_top_lab a:hover{border-bottom: 3px solid rgba(255,255,255,1);}
+#top_z{width: 1000px; height: 500px;position: absolute;top: 600px;left: 100px;}
+#top2_z{width: 600px; height: 500px;position: absolute;top: 500px;left: 600px;}
+#top3_z{width: 600px; height: 500px;position: absolute;top: 670px;left: 600px;line-height: 30px;}
+
+#blance_er_z{
+		width: 100%;
+		height: 980px;
+		background-color: #e3e3e3;
+		position: relative;
+		top: -120px;
+	}
+	
+#blance_er_2_z	img{width: 250px;}
+#blance_er_z #blance_er_2_z #kuai1{width: 300px;height:760px ;position: relative;left: 70px;top: 200px;color: red;float: left;text-align: center;}
+#blance_er_z #blance_er_2_z #kuai2{width: 300px;height:760px ;position: relative;left: 100px;top: 200px;color: red;float: left;text-align: center;}
+#blance_er_z #blance_er_2_z #kuai3{width: 300px;height:760px ;position: relative;left: 130px;top: 200px;color: red;float: left;text-align: center;}
+#blance_er_z #blance_er_2_z #kuai4{width: 300px;height:760px ;position: relative;left: 160px;top: 200px;color: red;float: left;text-align: center;}
+
+#renshi_z{width: 100%;
+		height: 800px; 
+    background-image: url(../img/img_zhang/团队介绍-z.jpg);   
+    background-repeat:no-repeat;  
+        background-position:0% 0%;  
+    background-size: cover; /*让背景图片足够大，不考虑看不到的部分*//*contain 让图片最大，考虑全部显示*/ 
+			position: relative;
+			top: -150px;}
+
+#renshi_z_z{width: 670px;height: 500px;line-height: 35px;position: absolute;left: 100px;top: 150px;}

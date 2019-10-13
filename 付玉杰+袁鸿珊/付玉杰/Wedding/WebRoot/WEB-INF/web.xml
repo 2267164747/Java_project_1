@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Wedding</display-name>
+  <welcome-file-list>
+  <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
+  <filter>
+  <filter-name>CharacterFilter</filter-name> 
+  <filter-class>com.etc.wedding.filter.CharacterEncodingFilter</filter-class>
+   <init-param>
+  <param-name>encoding</param-name>
+  <param-value>utf-8</param-value>
+  </init-param>
+  </filter>
+   <filter-mapping>
+  <filter-name>CharacterFilter</filter-name>
+  <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.RegisterServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.LoginServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowgroundServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.ShowgroundServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GroundImgServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.GroundImgServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JudgeGroundServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.JudgeGroundServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGroundServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.AddGroundServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGroundDetailServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.AddGroundDetailServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleGroundServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.DeleGroundServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateGroundServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.UpdateGroundServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllGroundServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.AllGroundServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAdminServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.AddAdminServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserManagerServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.UserManagerServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLoginServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.AdminLoginServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePwdServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.UpdatePwdServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserBookingServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.UserBookingServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLoginOutServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.AdminLoginOutServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleAdminServ</servlet-name>
+    <servlet-class>com.etc.wedding.control.DeleAdminServ</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>RegisterServ</servlet-name>
+    <url-pattern>/RegisterServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServ</servlet-name>
+    <url-pattern>/LoginServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowgroundServ</servlet-name>
+    <url-pattern>/ShowgroundServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GroundImgServ</servlet-name>
+    <url-pattern>/GroundImgServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JudgeGroundServ</servlet-name>
+    <url-pattern>/JudgeGroundServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGroundServ</servlet-name>
+    <url-pattern>/AddGroundServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGroundDetailServ</servlet-name>
+    <url-pattern>/AddGroundDetailServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleGroundServ</servlet-name>
+    <url-pattern>/DeleGroundServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateGroundServ</servlet-name>
+    <url-pattern>/UpdateGroundServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllGroundServ</servlet-name>
+    <url-pattern>/AllGroundServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAdminServ</servlet-name>
+    <url-pattern>/AddAdminServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserManagerServ</servlet-name>
+    <url-pattern>/UserManagerServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServ</servlet-name>
+    <url-pattern>/AdminLoginServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePwdServ</servlet-name>
+    <url-pattern>/UpdatePwdServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserBookingServ</servlet-name>
+    <url-pattern>/UserBookingServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginOutServ</servlet-name>
+    <url-pattern>/AdminLoginOutServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleAdminServ</servlet-name>
+    <url-pattern>/DeleAdminServ</url-pattern>
+  </servlet-mapping>
+</web-app>

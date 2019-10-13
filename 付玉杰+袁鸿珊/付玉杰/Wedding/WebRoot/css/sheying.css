@@ -1,0 +1,104 @@
+body{
+	height: 1500px;
+}
+.content_hunsha{
+	width: 1200px;
+	height: 1300px;
+	margin: 0 auto;
+	background-color:#f6f6f6;
+	border: 1px solid gainsboro;
+	font-size: 14px;
+	margin-top: 20px;
+	background-image: url(../img/yqq/背景.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.content_hunsha p{
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 15px;
+	color: #666666;
+}
+.content_hunsha p a{
+	font-size: 15px;
+	color: #666666;
+}
+.content_hunsha a:hover{
+	color: hotpink;
+}
+#paixu{
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 300px;
+}
+#paixu ul li{
+	display: block;
+	width: 60px;
+	height: 30px;
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+}
+#paixu:hover{
+	overflow:visible;
+}
+.sheying{
+	width: 278px;
+	height: 280px;
+	border: 1px solid #D3D3D3;
+	float: left;
+	margin-left: 15px;
+	margin-top: 20px;
+	font-family: "黑体";
+}
+.hunsha_img{
+	width: 278px;
+	height: 173px;
+	/*transition: all 1s;*/
+	/*opacity:0.8;*/
+	/*filter(alpha=50);*/
+}
+.hunsha_img:hover{
+	/*transform: scale(1.1);*/
+	opacity:0.8;
+	/*filter(alpha=100);*/
+}
+.sheying ol li {
+	width: 278px;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 5px;
+	margin-left: 10px;
+	/*background-color: red;*/
+}
+.sheying_li3{
+	color: red;
+	font-size: 16px;
+}
+#fanhui{
+	position:fixed;
+	right:0;
+	bottom:0;
+	z-index: 5;
+}
+.moren{
+	display: none;
+	float: left;
+	width: 1200px;
+	height: 1250px;
+	/*background-color: red;*/
+}
+.gao{
+	display: none;
+	float: left;
+	width: 1200px;
+	height: 1250px;
+}
+.di{
+	display: none;
+	float: left;
+	width: 1200px;
+	height: 1250px;
+}

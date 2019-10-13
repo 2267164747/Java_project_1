@@ -1,0 +1,177 @@
+/*中式婚礼跳转页面*/
+
+#box {
+	width: 1200px;
+	height: 600px;
+}
+
+
+/******左箭头******/
+
+#arrow1 {
+	width: 50px;
+	height: 100px;
+	background-color: gainsboro;
+	opacity: 0.5;
+	position: absolute;
+	top: 250px;
+	left: 90px;
+}
+
+.arrleft1 {
+	border-width: 35px;
+	border-color: transparent white transparent transparent;
+	border-style: dashed solid dashed dashed;
+	border-left: none;
+	position: absolute;
+	top: 20px;
+	left: 5px;
+}
+
+.arrleft2 {
+	border-width: 34px;
+	border-color: transparent lightgrey transparent transparent;
+	border-style: dashed solid dashed dashed;
+	border-left: none;
+	position: absolute;
+	top: 22px;
+	left: 10px;
+}
+
+
+/*****右箭头*****/
+
+#arrow2 {
+	width: 50px;
+	height: 100px;
+	background-color: gainsboro;
+	position: absolute;
+	top: 250px;
+	left: 880px;
+	opacity: 0.5;
+}
+
+.arrright1 {
+	border-width: 35px;
+	border-color: transparent transparent transparent white;
+	border-style: dashed solid dashed dashed;
+	border-right: none;
+	position: absolute;
+	left: 10px;
+	top: 20px;
+}
+
+.arrright2 {
+	border-width: 34px;
+	border-color: transparent transparent transparent lightgrey;
+	border-style: dashed solid dashed dashed;
+	border-right: none;
+	position: absolute;
+	top: 22px;
+	left: 5px;
+}
+
+.box_top {
+	height: 400px;
+	width: 600px;
+	position: relative;
+	overflow: hidden;
+	left: 135px;
+	top:50px;
+	background-size: 100% 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#ul {
+	list-style: none;
+	width: 4500px;
+	height: 380px;
+	position: absolute;
+}
+
+#ul li {
+	width: 600px;
+	height: 450px;
+	float: left;
+	background-size: 100% 100%;
+}
+
+.box_right {
+	width: 300px;
+	height: 500px;
+	border: solid 1px darkgray;
+	padding-left: 20px;
+	padding-top: 30px;
+	position: absolute;
+	left: 1000px;
+	top: 100px;
+}
+
+.box_right img {
+	width: 160px;
+	height: 160px;
+}
+
+.box_right p {
+	position: absolute;
+	left: 180px;
+	top: 470px;
+	font-size: 20px;
+	border: solid 2px sandybrown;
+	border-radius: 6px;
+}
+
+.box_right span{
+	font-size: 20px;
+	position: absolute;
+	left: 180px;
+	top: 400px;
+}
+
+ul,ol li{
+	list-style: none;
+}
+
+#box_bottom ol li {
+	width: 100px;
+	height: 100px;
+	float: left;
+	border: solid 1px darkgray;
+	margin-top: 70px;
+	margin-left: 8px;
+	background-size: 100% 100%;
+}
+.small_img:hover{transform: scale(1.1);}
+hr{
+	width: 80%;
+	margin:0 auto;
+}
+
+
+/******婚礼流程********/
+.liuch{
+	width: 1100px;
+	height:2000px;
+	margin-left: 125px;
+	font-size: 20px;
+}
+.liuch img{margin-left: 150px; opacity: 0;}
+.liuch span{color: darkgray;}
+
+
+/*******回到顶部*************/
+#returntop{width: 50px;
+           height: 50px;
+           background-color: #CCCCCC;
+           line-height: 50px;
+           text-align: center;
+           border-radius: 50%;
+           position: fixed;
+           top: 270px;
+           left: 1300px;
+           font-size: 20px;
+              }

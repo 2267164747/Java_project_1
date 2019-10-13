@@ -1,0 +1,41 @@
+.lianjie{
+	width: 55px;
+	height: 60px;
+	background: #A8A3A9;
+	margin-bottom: 1px;
+}
+.lianjie:hover{
+	background: #ABABAB;
+}
+.lianjie img{
+	position: fixed;
+	right: 10px;
+}
+.s_denglu_wz{
+	font-size: 15px;
+	color: white;
+	letter-spacing: 8px;
+	position: absolute;
+	right: -30px;
+	bottom: -33px;
+}
+.s_zc{
+	width: 55px;
+	height: 60px;
+	background: #6CCFF7;
+}
+.s_zc:hover{
+	background: #ABABAB;
+}
+.s_zc img{
+	position: fixed;
+	right: 10px;
+}
+.s_zc_wz{
+	font-size: 15px;
+	color: yellow;
+	letter-spacing: 8px;
+	position: absolute;
+	right: -30px;
+	bottom: -98px;
+}

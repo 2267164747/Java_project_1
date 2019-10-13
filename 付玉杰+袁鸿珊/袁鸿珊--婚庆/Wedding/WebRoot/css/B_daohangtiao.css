@@ -1,0 +1,220 @@
+/*background-image:#;
+			background-repeat:no-repeat;  
+        	background-position:0% 0%;  
+    		background-size: cover; /*让背景图片足够大，不考虑看不到的部分*//*contain 让图片最大，考虑全部显示*/ 
+    		/*background-attachment: fixed;	"*/
+    		/*font: normal 12px/22px 宋体;*/
+    	body{
+    		height:1200px;/*全局body高度*/
+    		width: 1200px;
+}
+			/* css 重置 */
+			
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			/*li{
+				list-style: none;
+			}*/
+			img {
+				border: 0;
+				
+			}
+			
+			a {
+				text-decoration: none;
+				color: #333;
+			}
+			li{
+				list-style: none;
+			}
+			a:hover {
+				color: #FF8400;
+			}
+			
+			.js {
+				width: 90%;
+				margin: 10px auto 0 auto;
+			}
+			
+			.js p {
+				padding: 5px 0;
+				font-weight: bold;
+				overflow: hidden;
+			}
+			
+			.js p span {
+				float: right;
+			}
+			
+			.js p span a {
+				color: #f00;
+				text-decoration: underline;
+			}
+			
+			.js textarea {
+				height: 190px;
+				width: 98%;
+				padding: 5px;
+				border: 1px solid #ccc;
+				border-top: 2px solid #aaa;
+				border-left: 2px solid #aaa;
+			}
+			/* 本例子css */
+			
+			.clearfix:after {
+				content: ".";
+				display: block;
+				height: 0;
+				clear: both;
+				visibility: hidden;
+			}
+			
+			.navBar {
+				position: relative;
+				z-index: 1;
+				padding-left: 400px;
+				height: 60px;
+				line-height: 60px;
+				/*background:url(img/line.gif) repeat-x 0 bottom #fff; color:#333; */
+				background-color: rgba(255, 255, 255, 0.6);
+			}
+			
+			.nav {
+				position: relative;
+				width: 980px;
+				margin: 0 auto;
+				font-family: "Microsoft YaHei", SimSun, SimHei;
+				font-size: 14px;
+			}
+			
+			.nav a {
+				color: #333;
+			}
+			
+			.nav h3 {
+				font-size: 100%;
+				font-weight: normal;
+			}
+			
+			.nav .m {
+				float: left;
+				position: relative;
+				z-index: 1;
+			}
+			
+			.nav .s {
+				float: left;
+				width: 3px;
+				text-align: center;
+				color: #D4D4D4;
+				font-size: 12px;
+			}
+			
+			.nav h3 a {
+				display: block;
+				width: 124px;
+				text-align: center;
+				font-weight: bold;
+			}
+			
+			.nav .sub {
+				display: none;
+				/*默认隐藏*/
+				position: absolute;
+				left: -3px;
+				top: 60px;
+				z-index: 1;
+				width: 128px;
+				border: 1px solid #E6E4E3;
+				border-top: 0;
+				background-color: rgba(255, 255, 255, 0.6);
+			}
+			
+			.nav .sub li {
+				text-align: center;
+				padding: 0 8px;
+				margin-bottom: -1px;
+			}
+			
+			.nav .sub li a {
+				display: block;
+				border-bottom: 1px solid #E6E4E3;
+				padding: 8px 0;
+				height: 28px;
+				line-height: 28px;
+				color: #666;
+			}
+			
+			.nav .sub li a:hover {
+				color: #FE7700;
+			}
+			
+			.nav .block {
+				height: 3px;
+				width: 130px;
+				background: #FE7700;
+				position: absolute;
+				left: 0;
+				top: 57px;
+				overflow: hidden;
+			}
+		.imgtop {
+			position: absolute;
+			left: 70px;
+			top: -15px
+		}
+		
+		.bottom {
+			width: 100%;
+			height: 400px;
+			background-color: rgba(255, 255, 255, 0.7);
+			position: absolute;
+			top: 4000px;/*尾部距离上距离*/
+		}
+		
+		.bottom .footer .w .footer-title {
+			width: 1000px;
+			height: 70px;
+			border-bottom: 1px #DDDDDD solid;
+			line-height: 70px;
+			margin: 5px auto;
+		}
+		
+		.bottom .footer .w {
+			font-size: 14px;
+			font-family: "Microsoft YaHei"
+		}
+		
+		.bottom .footer .w .fr {
+			position: absolute;
+			left: 900px;
+			top: 5px;
+			font-size: 20px;
+			color: lightpink;
+		}
+		
+		.bottom .footer .w .web-nav {
+			width: 70px;
+			height: 200px;
+			position: absolute;
+			left: 130px;
+			line-height: 30px;
+		}
+		
+		.bottom .footer .w .contact {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			left: 350px;
+			line-height: 30px;
+		}
+		
+		.bottom .footer .w .about-amazing {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			left: 900px;
+			line-height: 30px;
+		}

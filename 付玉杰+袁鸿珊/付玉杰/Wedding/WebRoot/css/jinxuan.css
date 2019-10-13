@@ -1,0 +1,19 @@
+*{margin: 0px;padding: 0px;}
+#box_zhang{width: 850px;margin-left: 50px;margin-top: 50px;border: 1.5px solid #d4d4d4;}
+#box_zhang .box_box{width: 800px;height:160px;margin-left: 25px;margin-top: 25px;border-bottom: 1.5px #d4d4d4 dashed;}
+#box_zhang .box_box img:hover{opacity: 0.7;}
+#box_zhang .box_box .box_zhang_span{position: absolute;border-top-style: 0px;font-size: 22px;font-family: "微软雅黑";left: 353px;}
+#box_zhang .box_box .box_zhang_span2{color: #767676;font-family: "微软雅黑";left: 30px;font-size: 15px;width: 500px;position: relative;top: -100px;left: 275px;}
+#box_zhang .box_box .box_zhang_time{color: #9C9C9C;font-size: 15px;font-family: "微软雅黑";position: relative;left: 750px;margin-top: -180px;display: none;}
+#box_zhang .box_box .box_zan{position: absolute; left: 880px;margin-top: -50px;}
+#box_zhang_remen {width: 300px;border: 1.5px #d4d4d4 solid;position: absolute;left: 925px;top: 132px;}
+.box_zhang_remen2{width: 250px;height: 110px;border-bottom: 1.5px #D4D4D4 dashed;margin-left:20px ;}
+.box_zhang_remen2 img{position: relative; top: 25px;}
+.box_zhang_remen2 .box_remen2_span{font-size: 15px;font-family: "微软雅黑";}
+.box_zhang_remen2 img:hover{opacity: 0.7;}
+#box_zhang_jinxuan{width: 300px;border: 1.5px #d4d4d4 solid;position: absolute;left: 925px;top: 900px;}
+#box_zhang_jinxuan .box_zhang_jinxuan2{width: 250px;margin-left: -8px;}
+#box_zhang_jinxuan .box_zhang_jinxuan2 img{border-radius: 10px;}
+#box_zhang_jinxuan .box_zhang_jinxuan2 img:hover{opacity: 0.7;}
+.box_box:hover{box-shadow: 0px 0px 30px #ededed;}
+.box_box{transition: all 300ms;}

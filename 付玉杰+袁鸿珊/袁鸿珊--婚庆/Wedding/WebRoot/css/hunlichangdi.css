@@ -1,0 +1,466 @@
+/*中间部分大框*/
+.dasini{	
+	width: 1200px;
+	height: 140px;
+	margin-left: 200px;
+	margin-top: 10px;
+	background-color:"SSSSSS" 
+}
+.dasi{	
+	width: 1600px;
+	height: 220px;
+	margin-left: 200px;
+	margin-top: 50px;
+	background-color:"SSSSSS" 
+}
+.font1{
+	color:"#AAAAAA";
+	height:30px;
+	font-size:22px;" 
+	size=65
+}
+#a1{	
+	width: 1200px;
+	height: 1600px;
+	/*border: 1px solid red;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*opacity: 0.4;*/
+	position: absolute;
+	left: 73px;
+	/*margin: 0 auto;*/
+	top: 80px;
+}
+/*第一个场地框架*/
+.piccc{
+	width: 250px;
+	height: 200px;
+		position:relative;
+}
+#a2{
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	/*border: 1px solid red;*/
+     left: 25px;
+	top: 180px;
+	overflow: hidden;
+    }
+#changdi5{
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	/*border: 1px solid red;*/
+    left: 25px;
+	top: 1220px;
+	overflow: hidden;
+    }
+/*第六个场地框架*/    
+#changdi6{
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	/*border: 1px solid red;*/
+    left: 25px;
+	top: 1480px;
+	overflow: hidden;
+    }
+/*第一个场地标签框架 */   
+/*第五个场地标签框架 */  
+#BQ{
+	width: 300px;
+	height: 30px;
+	position: absolute;
+	/*border: 1px solid red;*/
+    left: 320px;
+	top: 1390px;
+	overflow: hidden;
+  }
+/*第六个场地标签框架 */   
+#BQ1{
+	width: 300px;
+	height: 30px;
+	position: absolute;
+	/*border: 1px solid red;*/
+    left: 320px;
+	top: 1650px;
+	overflow: hidden;
+  }   
+/*索引栏 */  
+#sp1{
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	size: 5px;
+}
+/*没有更多数据了---尾部提示语*/
+#sp2{
+	position: absolute;
+	left: 500px;
+	top: 1750px;
+	color: red;
+	font-size: 20px;
+}
+/*场地一名字*/
+.sp3{
+	position: relative;
+	margin-left: 200px;
+	color:black;
+	font-size: 30px;
+}
+#sp3:hover{
+	color: red;
+}
+/*场地一价格*/
+.jiage{
+	color:red;
+	font-size: 30px;
+}
+/*场地一标签1*/
+#sp4{
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	width: 80px;
+	height: 25px;
+	background-color: peachpuff;
+	color: plum;
+	text-align: center;
+}
+/*场地一标签2*/
+#sp5{
+	position: absolute;
+	top: 2px;
+	left: 90px;
+	width: 80px;
+	height: 25px;
+	background-color: cornflowerblue;
+	color: blue;
+	text-align: center;
+}
+/*场地一标签3*/
+#sp6{
+	position: absolute;
+	top: 2px;
+	left: 180px;
+	width: 125px;
+	height: 25px;
+	background-color: antiquewhite;
+	color: burlywood;
+	text-align: center;
+}
+/*场地二名字*/
+#sp7{
+	position: absolute;
+	left: 320px;
+	top: 440px;
+	color:black;
+	font-size: 30px;
+}
+#sp7:hover{
+	color: red;
+}
+
+/*场地三名字*/
+#sp-img3{
+	position: absolute;
+	left: 320px;
+	top: 700px;
+	color:black;
+	font-size: 30px;
+}
+#sp-img3:hover{
+	color: red;
+}
+/*场地四名字*/
+#sp-img4{
+	position: absolute;
+	left: 320px;
+	top: 960px;
+	color:black;
+	font-size: 30px;
+}
+#sp-img4:hover{
+	color: red;
+}
+/*场地五名字*/
+#sp-img5{
+	position: absolute;
+	left: 320px;
+	top: 1220px;
+	color:black;
+	font-size: 30px;
+}
+#sp-img5:hover{
+	color: red;
+}
+/*场地六名字*/
+#sp-img6{
+	position: absolute;
+	left: 320px;
+	top: 1480px;
+	color:black;
+	font-size: 30px;
+}
+#sp-img6:hover{
+	color: red;
+}
+#sp8{
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	width: 80px;
+	height: 25px;
+	background-color: peachpuff;
+	color: plum;
+	text-align: center;
+}
+/*场地二的标签2*/
+#sp9{
+	position: absolute;
+	top: 2px;
+	left: 90px;
+	width: 120px;
+	height: 25px;
+	background-color: antiquewhite;
+	color: burlywood;
+	text-align: center;
+}
+/*场地三的标签*/
+#sp-wenzi1{
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	width: 120px;
+	height: 25px;
+	background-color: #6495ED;
+	color: burlywood;
+	text-align: center;
+}
+/*场地四的标签1*/
+#sp-wenzi2{
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	width: 80px;
+	height: 25px;
+	background-color: peachpuff;
+	color: plum;
+	text-align: center;
+}
+/*场地四的标签2*/
+#sp-wenzi3{
+	position: absolute;
+	top: 2px;
+	left: 90px;
+	width: 120px;
+	height: 25px;
+	background-color: #6495ED;
+	color: burlywood;
+	text-align: center;
+}
+/*场地五的标签1*/
+#sp-biaoqian1{
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	width: 80px;
+	height: 25px;
+	background-color: peachpuff;
+	color: plum;
+	text-align: center;
+}
+/*场地五的标签2*/
+#sp-biaoqian2{
+	position: absolute;
+	top: 2px;
+	left: 90px;
+	width: 130px;
+	height: 25px;
+	background-color: lightskyblue;
+	color: plum;
+	text-align: center;
+}
+/*场地六的标签1*/
+#sp-biaoqian3{
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	width: 80px;
+	height: 25px;
+	background-color: peachpuff;
+	color: plum;
+	text-align: center;
+}
+/*场地六的标签2*/
+#sp-biaoqian4{
+	position: absolute;
+	top: 2px;
+	left: 90px;
+	width: 80px;
+	height: 25px;
+	background-color: cornflowerblue;
+	color: blue;
+	text-align: center;
+}
+/*场地六的标签3*/
+#sp-biaoqian5{
+	position: absolute;
+	top: 2px;
+	left: 180px;
+	width: 80px;
+	height: 25px;
+	background-color: peachpuff;
+	color: coral;
+	text-align: center;
+}
+/*第二条水平线*/
+.hrr{
+	size:3px;
+	padding-right: 1000px;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+#hr1{
+	padding-right: 1000px;
+	position: absolute;
+	top:150px;
+	margin-left: 25px;
+}
+/*第三条水平线*/
+#hr2{
+	padding-right: 1000px;
+	position: absolute;
+	top: 410px;
+	margin-left: 25px;
+}
+/*第一条水平线*/
+#hr3{
+	padding-right: 1000px;
+	position: absolute;
+	top: 40px;
+	margin-left: 25px;
+}
+/*第四条水平线*/
+#hr4{
+	padding-right: 1000px;
+	position: absolute;
+	top: 670px;
+	margin-left: 25px;
+}
+/*第五条水平线*/
+#hr5{
+	padding-right: 1000px;
+	position: absolute;
+	top: 930px;
+	margin-left: 25px;
+}
+/*第六条水平线*/
+#hr6{
+	padding-right: 1000px;
+	position: absolute;
+	top: 1190px;
+	margin-left: 25px;
+}
+/*第七条水平线*/
+#hr7{
+	padding-right: 1000px;
+	position: absolute;
+	top: 1450px;
+	margin-left: 25px;
+}
+/*第八条水平线*/
+#hr8{
+	padding-right: 1000px;
+	position: absolute;
+	top: 1710px;
+	margin-left: 25px;
+}
+/*场地样式选择栏*/
+#tab1{
+	margin-left: 25px;
+	margin-top: 60px;
+	color: #AAAAAA;
+	
+}
+/*场地一*/
+.img1{
+	width:250px;
+	height: 200px;
+	
+}
+.img1:hover{
+	transform: scale(1.1);
+	transition: all 1.6s;
+}
+/*场地二*/
+
+#img6{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:250px;
+	height: 200px;
+	
+}
+#img6:hover{
+	transform: scale(1.1);
+	transition: all 1.6s;
+}
+/*场地一的介绍*/
+.ul1{
+	position:relative;
+	left: 320px;
+	top: 240px;
+	color: grey;
+	list-style-type: none;
+}
+#ul1 li{
+	width: 400px;
+	height: 30px;
+	margin: 4px 0px;
+	list-style-type: none;
+}
+.ull{
+		color: grey;
+		list-style-type: none;
+}
+.ull li{
+	width: 400px;
+	height: 30px;
+	margin: 4px 0px;
+	list-style-type: none;
+}
+
+/*场地四的介绍*/
+
+#jiudian{
+	font-size: 60px;
+	color: white;
+	position: absolute;
+	top:0px;
+	left: 420px;
+}
+#jiudian:hover{
+	color: red;
+}
+#top_div{
+	width: 1100px;
+	height: 100px;
+	position: absolute;
+	top: 45px;
+	left: 20px;
+}
+#FuGai{
+	width: 1100px;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: black;
+	opacity: 0.4;
+}
+#top_img{
+	width: 1100px;
+	height: 100px;
+}

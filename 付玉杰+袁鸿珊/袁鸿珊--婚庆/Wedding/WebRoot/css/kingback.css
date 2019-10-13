@@ -1,0 +1,8 @@
+*{margin: 0px;padding: 0px;}
+#box_top{width: 100%;height: 1000px;background-color: #158ee1;}
+#box_top img{width: 150px;position: absolute; top: 20px;left: 100px;}
+#box_top #box_top_wen{color: white;font-size: 23px;position: absolute;top: 180px;left: 75px;}
+.box_top_lab a{color: white; font-size: 20px;text-decoration: none;}
+.box_top_lab{width: 690px;height:100px;position: absolute;left: 500px;top: 180px;letter-spacing: 4px;text-align: center;}
+.box_top_lab a{border-bottom: 3px solid rgba(255,255,255,0.0);padding-bottom:8px ;transition: all 500ms;}
+.box_top_lab a:hover{border-bottom: 3px solid rgba(255,255,255,1);}

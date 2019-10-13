@@ -1,0 +1,31 @@
+$(document).ready(function(){
+		/*长城*/
+        $(".changcheng").mouseover(function(){
+         $(".cc_photo").css("transform","scale(1.2)");
+          $(".cc_photo").css("transition","0.8s");
+        })
+          $(".changcheng").mouseleave(function(){
+         $(".cc_photo").css("transform","scale(1)");
+          $(".cc_photo").css("transition","0.8s");
+        }) 
+        
+        /*皇冠假日酒店*/
+          $(".king").mouseover(function(){
+         $(".king_photo").css("transform","scale(1.2)");
+          $(".king_photo").css("transition","0.8s");
+        })
+          $(".king").mouseleave(function(){
+         $(".king_photo").css("transform","scale(1)");
+          $(".king_photo").css("transition","0.8s");
+        })
+          
+           /*金茂万丽酒店*/
+          $(".wanli").mouseover(function(){
+         $(".wanli_photo").css("transform","scale(1.2)");
+          $(".wanli_photo").css("transition","0.8s");
+        })
+          $(".wanli").mouseleave(function(){
+         $(".wanli_photo").css("transform","scale(1)");
+          $(".wanli_photo").css("transition","0.8s");
+        })
+});

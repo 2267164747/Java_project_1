@@ -1,0 +1,11 @@
+[  
+	[{"x1":"img/yqq/4/x1.jpg"},
+	 {"x1":"img/yqq/4/x2.PNG"},
+	 {"x1":"img/yqq/4/x3.PNG"},
+	 {"x1":"img/yqq/4/x4.PNG"}],
+  	[{"x1":"img/yqq/4/a1.jpg"},
+     {"x1":"img/yqq/4/a2.jpg"},
+     {"x1":"img/yqq/4/a3.jpg"},
+     {"x1":"img/yqq/4/a4.jpg"},
+  	]
+]
